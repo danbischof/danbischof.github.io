@@ -7,8 +7,8 @@ This is the repository for a project webpage lead by Daniel Bischof. The entire 
 
 All pictures used on the webpage are either produced by myself or come with a free to use license. Below you can find the sources for all external pictures used in the order they appear on the webpage: 
 
-* background page 1: https://commons.wikimedia.org/wiki/File:AfD-Wahlparty_in_Erfurt_zur_Bundestagswahl_2017.jpg
-* https://twitter.com/SBootstrap
+* background page 1 (AfD election party): https://commons.wikimedia.org/wiki/File:AfD-Wahlparty_in_Erfurt_zur_Bundestagswahl_2017.jpg
+* background page 2 (demo Génération Identitaire): https://commons.wikimedia.org/wiki/File:Generation-identitaire.jpg
 
 Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
