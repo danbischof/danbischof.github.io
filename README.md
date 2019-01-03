@@ -1,7 +1,8 @@
 # [Webpage of SNSF Ambizione Project - by Daniel Bischof](https://extremeentrance.github.io)
 
-
 This is the repository for a project webpage lead by Daniel Bischof. The entire webpage is based on the [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) theme and snippets provided throughout the web. 
+
+**[View Live Preview](https://extremeentrance.github.io)**
 
 ## Picture sources 
 
@@ -19,6 +20,7 @@ All pictures used on the webpage are either produced by myself or come with a fr
 * How Parties Organize from the Grounds: The Genesis of the Movimento 5 Stelle: https://www.flickr.com/photos/revolweb/22261753646
 
 ## Questions? 
+
 If you have any questions, please get in touch: [https://danbischof.com](https://danbischof.com)
 
 ## Copyright and License
