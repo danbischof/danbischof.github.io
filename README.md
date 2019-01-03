@@ -6,9 +6,8 @@ This is the repository for a project webpage lead by Daniel Bischof. The entire 
 
 ## Preview
 
-[![Grayscale Preview](https://www.dropbox.com/s/yeii34qmta5tsau/Screenshot.png)](https://blackrockdigital.github.io/startbootstrap-grayscale/)
+[![Grayscale Preview](https://www.dropbox.com/s/yeii34qmta5tsau/Screenshot.png)](https://www.dropbox.com/s/yeii34qmta5tsau/Screenshot.png)
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-grayscale/)**
 
 ## Status
 
