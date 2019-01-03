@@ -1,6 +1,8 @@
-# [Start Bootstrap - Grayscale](https://startbootstrap.com/template-overviews/grayscale/)
+# [Webpage of SNSF Ambizione Project - by Daniel Bischof](https://danbischof.com)
 
-[Grayscale](http://startbootstrap.com/template-overviews/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+
+This is the repository for a project webpage lead by Daniel Bischof. The entire webpage is based on the [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) theme and snippets provided throughout the web. 
+
 
 ## Preview
 
