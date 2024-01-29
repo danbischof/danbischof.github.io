@@ -3,23 +3,23 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Daniel 
-middle_name: R.
-last_name: Name
-email: you@example.com
+first_name: Daniel
+middle_name:
+last_name: Bischof
+email: db@danbischof.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Daniel Bischof's webpage. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+  Photos by <a href="http://ca.ttaneo.com/" target="_blank">Daniel Cattaneo</a>.
+keywords: political science, experiments, comparative politics, political behavior # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🧐 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://danbischof.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -67,19 +67,19 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: danbischof # your GitHub user name
 gitlab_username: # your GitLab user name
-x_username: # your X handle
+x_username: danbischof # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: Tk0aLxsAAAAJ&hl=de # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: # your ORCID ID
+orcid_id: 0000-0001-9400-1001 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
-publons_id: # your ID on Publons
+publons_id: AAB-4061-2019 # your ID on Publons
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 osf_id: # your OSF ID
 research_gate_profile: # your profile on ResearchGate
@@ -104,7 +104,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  best way to reach me: email!
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -112,7 +112,7 @@ contact_note: >
 
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: UA-53732984-2 # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
@@ -123,8 +123,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: blog # blog_name will be displayed in your blog page
+blog_description: 
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -151,7 +151,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: DB # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -176,12 +176,12 @@ collections:
     permalink: /projects/:path/
 
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false 
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 
@@ -283,14 +283,14 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Bischof]
+  first_name: [Daniel]
 
   style: apa
   locale: en
 
   source: /_bibliography/
-  bibliography: papers.bib
+  bibliography: publications.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
@@ -361,7 +361,7 @@ imagemagick:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics: false # enables google analytics
+enable_google_analytics: true # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_google_verification: false # enables google site verification
 enable_bing_verification: false # enables bing site verification
@@ -380,40 +380,9 @@ enable_progressbar: true # enables a horizontal progress bar linked to the verti
 
 bootstrap-table:
   version: "1.22.1"
-chartjs:
-  version: "4.4.1"
-d3:
-  version: "7.8.5"
-  integrity: "sha256-1rA678n2xEx7x4cTZ5x4wpUCj6kUMZEZ5cxLSVSFWxw="
-diff2html:
-  version: "3.4.47"
-  integrity:
-    css: "sha256-IMBK4VNZp0ivwefSn51bswdsrhk0HoMTLc2GqFHFBXg="
-    js: "sha256-eU2TVHX633T1o/bTQp6iIJByYJEtZThhF9bKz/DcbbY="
-echarts:
-  version: "5.4.3"
-  integrity:
-    library: "sha256-EVZCmhajjLhgTcxlGMGUBtQiYULZCPjt0uNTFEPFTRk="
-    dark_theme: "sha256-UmFIP/4VvOqBDIl2QWl1HBuAJ1XWs/iFZxT5yJRZOKo="
-highlightjs:
-  version: "11.9.0"
-  integrity:
-    css:
-      light: "sha256-Oppd74ucMR5a5Dq96FxjEzGF7tTw2fZ/6ksAqDCM8GY="
-      dark: "sha256-nyCNAiECsdDHrr/s2OQsp5l9XeY2ZJ0rMepjCT2AkBk="
-imagesloaded:
-  version: "5.0.0"
-  integrity: "sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc="
-img-comparison-slider:
-  version: "8.0.6"
 jquery:
   version: "3.6.0"
   integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-leaflet:
-  version: "1.9.4"
-  integrity:
-    css: "sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-    js: "sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
 mathjax:
   version: "3.2.0"
 masonry:
@@ -425,25 +394,8 @@ mdb:
     css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
     js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
 medium_zoom:
-  version: "1.1.0"
-  integrity: "sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc="
-mermaid:
-  version: "10.7.0"
-  integrity: "sha256-TtLOdUA8mstPoO6sGvHIGx2ceXrrX4KgIItO06XOn8A="
-swiper:
-  version: "11.0.5"
-  integrity:
-    css: "sha256-yUoNxsvX+Vo8Trj3lZ/Y5ZBf8HlBFsB6Xwm7rH75/9E="
-    js: "sha256-BPrwikijIybg9OQC5SYFFqhBjERYOn97tCureFgYH1E="
-vega:
-  version: "5.27.0"
-  integrity: "sha256-Yot/cfgMMMpFwkp/5azR20Tfkt24PFqQ6IQS+80HIZs="
-vega-embed:
-  version: "6.24.0"
-  integrity: "sha256-FPCJ9JYCC9AZSpvC/t/wHBX7ybueZhIqOMjpWqfl3DU="
-vega-lite:
-  version: "5.16.3"
-  integrity: "sha256-TvBvIS5jUN4BSy009usRjNzjI1qRrHPYv7xVLJyjUyw="
+  version: "1.0.8"
+  integrity: "sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8="
 
 # -----------------------------------------------------------------------------
 # Get external JSON data
@@ -451,7 +403,7 @@ vega-lite:
 
 jekyll_get_json:
   - data: resume
-    json: assets/json/resume.json # it can also be an url
+    json:  # it can also be an url
 jsonresume:
   - basics
   - work

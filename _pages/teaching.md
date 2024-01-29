@@ -2,11 +2,23 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Overview of my teaching portfolio
 nav: true
-nav_order: 6
+nav_order: 6 
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+**Current coursework:**
+*  [MA seminar @Aarhus:] *Political Culture and Norms: How Societies Change* [(Syllabus)]({{ site.baseurl }}/assets/pdf/Bischof_norms_syllabus.pdf)
 
-Organize your courses by years, topics, or universities, however you like!
+*  [BA lecture & tutorials @Aarhus:] *Political Institutions*
+
+**Former coursework:** 
+*  [MA thesis colloquium @ETH & Uni Zurich:] *MACIS thesis colloquium* [(Syllabus)]({{ site.baseurl }}/assets/pdf/Bischof_MACIS_syllabus.pdf)
+*  [MA seminar @Zurich:] *Invasive Parties: Where New Parties Come From And How They Change Party Systems* [(Syllabus)]({{ site.baseurl }}/assets/pdf/Bischof_InvasiveParties_syllabus.pdf)
+*  [MA seminar (with Daniele Caramani) @Zurich:] *Left-Right in Global Perspective* [(Syllabus)]({{ site.baseurl }}/assets/pdf/CarmaniBischof_LeftRight_syllabus.pdf)
+
+*  [BA seminar @Zurich:] *Parteien & Parteiensysteme* [(Syllabus)]({{ site.baseurl }}/assets/pdf/Bischof_ParteienParteiensysteme_syllabus.pdf)
+*  [BA lecture & tutorials (with Daniele Caramani) @Zurich:] *Vertiefung Vergleichende Politikwissenschaft* [(Syllabus)]({{ site.baseurl }}/assets/pdf/CaramaniBischof_Vertiefung_syllabus.pdf)
+
+**Designed but not taught:** 
+*  [MA seminar:] *The Means and Ends of Party Manifestos & Party Positions* [(Syllabus)]({{ site.baseurl }}/assets/pdf/Bischof_PP_syllabus.pdf)

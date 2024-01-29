@@ -1,34 +1,135 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"allinger":
+  - firstname: ["Tim Lars"]
+    url: https://pure.au.dk/portal/da/persons/tim-lars-allinger(71d53616-a6f3-49dd-b798-86623643dcde).html
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"bernardi":
+  - firstname: ["Luca"]
+    url: https://www.liverpool.ac.uk/politics/staff/luca-bernardi/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"cheng-matsuno":
+  - firstname: ["Vanessa"]
+    url: https://www.lse.ac.uk/government/people/research-students/vanessa-cheng-matsuno
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"cohen":
+  - firstname: ["Denis"]
+    url: https://denis-cohen.github.io
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"dumont":
+  - firstname: ["Patrick", "Patrick Dumont"]
+    url: https://researchers.anu.edu.au/researchers/dumont-pe
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"juan":
+  - firstname: ["Alexander De"]
+    url: https://www.alexander-dejuan.de
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"haass":
+  - firstname: ["Felix"]
+    url: https://felixhaass.de
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"juratic":
+  - firstname: ["Morgan Le Corre", "Morgan Le Corre Juratic"]
+    url: https://www.morganlecorrejuratic.com
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"ezrow":
+  - firstname: ["Lawrence"]
+    url: https://ljezrow.com
+
+"falco-gimeno":
+  - firstname: ["Albert"]
+    url: https://www.falcogimeno.com   
+
+"fink":
+  - firstname: ["Simon"]
+    url: https://www.uni-goettingen.de/de/pd-dr-simon-fink/495339.html
+
+"foos":
+  - firstname: ["Florian"]
+    url: http://www.florianfoos.net
+
+"frederiksen":
+  - firstname: ["Kristian Vrede Skaaning"]
+    url: https://pure.au.dk/portal/en/persons/kristian-vrede-skaaning-frederiksen(829498fb-8170-4c57-9ab9-cd518dc42551).html
+
+"hilbig":
+  - firstname: ["Hanno"]
+    url: https://www.hannohilbig.com  
+
+"indridason":
+  - firstname: ["Indridi H."]
+    url: https://www.indridason.politicaldata.org 
+
+"kuhn":
+  - firstname: ["Patrick", "Patrick M."]
+    url: https://sites.google.com/site/pmkuhndr/home
+
+"kurer":
+  - firstname: ["Thomas"]
+    url: https://thomaskurer.net
+
+"lang":
+  - firstname: ["Valentin"]
+    url: http://www.valentinlang.com
+
+"lühiste":
+  - firstname: ["Maarja"]
+    url: https://www.ncl.ac.uk/gps/staff/profile/maarjaluhiste.html
+
+"morales":
+  - firstname: ["Laura"]
+    url: https://www.sciencespo.fr/centre-etudes-europeennes/fr/chercheur/laura-morales.html
+
+"nanou":
+  - firstname: ["Kyriaki"]
+    url: https://www.durham.ac.uk/staff/kyriaki-nanou/
+
+"redeker":
+  - firstname: ["Nils"]
+    url: https://www.delorscentre.eu/de/team/profil/person/redeker
+
+"riaz":
+  - firstname: ["Sascha"]
+    url: https://saschariaz.com
+
+"saalfeld":
+  - firstname: ["Thomas"]
+    url: https://www.uni-bamberg.de/comparpol/lehrstuhlteam/thomas-saalfeld/
+
+"senninger":
+  - firstname: ["Roman"]
+    url: https://romansenninger.github.io
+
+"schulte-cloos":
+  - firstname: ["Julia"]
+    url: https://jschultecloos.github.io
+
+"thomson":
+  - firstname: ["Henry"]
+    url: https://www.henrythomson.com
+
+"valentim":
+  - firstname: ["Vicente"]
+    url: https://www.vicentevalentim.com 
+
+"visalvanich":
+  - firstname: ["Neil"]
+    url: http://www.neilvisal.com
+
+"vivyan":
+  - firstname: ["Nick"]
+    url: https://sites.google.com/view/nickvivyan/home
+
+"wagner":
+  - firstname: ["Markus"]
+    url: https://www.wagnermarkus.net  
+
+"wolkenstein":
+  - firstname: ["Fabio"]
+    url: https://politikwissenschaft.univie.ac.at/ueber-uns/mitarbeiterinnen/wolkenstein/ 
+
+"wouters":
+  - firstname: ["Ruud"]
+    url: https://research.tilburguniversity.edu/en/persons/ruud-wouters
+
+"ziblatt":
+  - firstname: ["Daniel"]
+    url: https://scholar.harvard.edu/dziblatt/home 
