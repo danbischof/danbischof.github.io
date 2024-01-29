@@ -6,28 +6,33 @@ inline: false
 related_posts: false
 ---
 
-:rotating_light: I'm hiring: 2 postdocs (up to six year) :rotating_light:
+I'm hiring: 2 postdocs (up to six year)! :rotating_light: 
 
 ---
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
-
-#### Hipster list
+#### The facts :hammer: 
 
 <ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
+    <li>Start date: September 1, 2024 (or earlier by arrangement)</li>
+    <li>Duration: fixed term for up to six years (2*3 years)</li>
+    <li>Working hours: fulltime (100%)</li>
 </ul>
 
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
+#### Your profile :pushpin:
+
+<ul>
+    <li>Completed academic university degree in the field of Political Science (or a similar field e.g. Sociology,  Economics)</li>
+    <li>Doctoral degree - or completion within a year - in the field of Political Science (or a similar field e.g.  Sociology, Economics)</li>
+    <li>Proven experience in quantitative methods of data analysis (preferably R/Stata)</li>
+    <li>Ideally you have already worked (quasi)-experimentally and/or used computational methods</li>
+    <li>Commitment, ability to work in a team</li>
+    <li>Dedication, ability to work independently</li>
+    <li>Very good command of written and spoken English is advantageous</li>
+    <li>German is no requirement for the position</li>
+</ul>
 
 ---
 
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
+> I highly encourage you to apply even if you fear that your profile does not fit these points perfectly! 
+> 
 
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
