@@ -54,7 +54,7 @@ If you are interested: I look forward to receiving your full application _(cover
     <li> <b> What does subject to extension mean? </b> </li>
     <li> It means that if we both agree your contract can be extended for another three years. So, six years in total. </li>
     <li> <b> Do I need to hold a PhD prior to applying? </b> </li>
-    <li> No. You should aim to finish your PhD within this year (2024). </li>
+    <li> No. You should aim to finish your PhD approximately this year (2024). </li>
     <li> <b> How flexible is the starting date? </b> </li>
     <li> Very flexible. Please apply and we take it from there! </li>
     <li> <b> I'm unsure if I perfectly match your profile description...So maybe I should not apply? </b> </li>
