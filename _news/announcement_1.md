@@ -1,15 +1,15 @@
 ---
 layout: post
+title: 2 postdocs (up to six year)! 
 date: 2024-02-09 07:00:00
 inline: false
 related_posts: false
 ---
 
-2 postdocs (up to six year)!
+:rotating_light:  I'm hiring: 2 postdocs (up to six year)! :rotating_light: 
 
 ---
 
-:rotating_light:  I'm hiring: 2 postdocs (up to six year)! :rotating_light: 
 
 #### The facts :hammer: 
 
