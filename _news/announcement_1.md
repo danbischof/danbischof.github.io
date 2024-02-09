@@ -38,7 +38,10 @@ related_posts: false
 > I highly encourage you to apply even if you fear that your profile does not fit these points perfectly! Please don't hesitate and "just" apply.  
 > 
 
-<a href="https://www.uni-muenster.de/Rektorat/Stellen/ausschreibungen/st_20240802_sk5.html">Official job advert</a>
+<div class="center-justified"><p>
+<a href="https://www.uni-muenster.de/Rektorat/Stellen/ausschreibungen/st_20240802_sk5.html">Official job advert</a></p>
+</div>
+(You need to scroll a bit to get to the English version of the advert)
 
 --- 
 If you are interested: I look forward to receiving your full application _(cover letter outlining your motivation, skills and research interests, CV including a list of publications, BA, MA and PhD diploma if competed, contact details of two referees, and a writing sample)_ by 8th of March 2024 at _(as a single PDF via email)_ : dan.bischofATuni-muenster.de
