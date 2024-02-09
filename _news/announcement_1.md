@@ -19,6 +19,8 @@ related_posts: false
     <li>Start date: August 1, 2024 (or later by arrangement)</li>
     <li>Duration: fixed term for three years (option for extension for another three years)</li>
     <li>Working hours: fulltime (100%)</li>
+    <li>University of Münster</li>
+    <li>Strong links with my project team (DEMNORM project) based at Aarhus University, with the potential for collaboration and/or visits to Aarhus University</li>
 </ul>
 
 #### Your profile :pushpin:
