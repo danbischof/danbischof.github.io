@@ -6,10 +6,11 @@ inline: false
 related_posts: false
 ---
 
-:rotating_light:  I'm hiring: 2 postdocs (up to six year)! :rotating_light: 
+ I'm hiring: 2 postdocs (up to six year)! 
 
 ---
 
+:rotating_light: :rotating_light: 
 
 #### The facts :hammer: 
 
