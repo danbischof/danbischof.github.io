@@ -67,6 +67,8 @@ If you are interested: I look forward to receiving your full application _(cover
     <li> Cologne is commutable from Münster. I myself live in Hamburg...But teaching is in presence and so is team-bulding and learning. I'm sure we will find a way to make it work. :) </li>
     <li> <b> Do I need to work on questions related to the DEMNORM project? </b> </li>
     <li> No. Collaborating with DEMNORM is an option, an opportunity. I won't judge your application based on whether or not you want to work with my Aarhus-based team. </li>
+    <li> <b> I care about mentoring. Would you be active as a mentor? </b> </li>
+    <li> Yes. I think mentoring is key to a succesful career, especially as a postdoc. I've been active in mentoring programmes since I was a postdoc in Zurich. I really like helping colleagues, engaging with their ideas and seeking to bring out the best of them. You can also get in touch with my current postdocs/phds if you want to learn more about me as a mentor. </li>
 </ul>
 
 
