@@ -61,6 +61,12 @@ If you are interested: I look forward to receiving your full application _(cover
     <li> Very flexible. Please apply and we take it from there! </li>
     <li> <b> I'm unsure if I perfectly match your profile description...So maybe I should not apply? </b> </li>
     <li> No. You definitely should apply. Nobody is perfect, nobody is "the" perfect fit for a job advert. </li>
+    <li> <b> What are the topics I need to work/teach on? </b> </li>
+    <li> I kept the call very broad because I'm very open-minded what your research is about. Same goes for teaching. I care about your ideas and how meaningful these are to the current literature. </li>
+    <li> <b> Münster is a very nice city but I'm more of a Cologne person...So... </b> </li>
+    <li> Cologne is commutable from Münster. I myself live in Hamburg...But teaching is in presence and so is team-bulding and learning. I'm sure we will find a way to make it work. :) </li>
+    <li> <b> Do I need to work on questions related to the DEMNORM project? </b> </li>
+    <li> No. Collaborating with DEMNORM is an option, an opportunity. I won't judge your application based on whether or not you want to work with my Aarhus-based team. </li>
 </ul>
 
 
