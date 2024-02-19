@@ -70,7 +70,7 @@ If you are interested: I look forward to receiving your full application _(cover
     <li> <b> I care about mentoring. Would you be active as a mentor? </b> </li>
     <li> Yes. I think mentoring is key to a succesful career, especially as a postdoc. I've been active in mentoring programmes since I was a postdoc in Zurich. I really like helping colleagues, engaging with their ideas and seeking to bring out the best of them. You can also get in touch with my current postdocs/phds if you want to learn more about me as a mentor. </li>
     <li> <b> What is the "writing sample"? </b> </li>
-    <li> One of your papers/publications. In econ ppl use the term "job market paper". I find this too restrictive as in pol sci many PhD students do not write such a paper. </li>
+    <li> One of your papers/publications; one that is representative of your work, of you as a scholar and your research background. In econ ppl use the term "job market paper". I find this too restrictive as in pol sci many PhD students do not write such a paper.</li>
 
 </ul>
 
