@@ -8,11 +8,10 @@ nav_order: 6
 ---
 
 **Current coursework:**
-*  [MA seminar @Münster:] *Political Culture and Norms: How Societies Change* [(Syllabus)]({{ site.baseurl }}/assets/pdf/Bischof_norms_syllabus.pdf)
+*  [MA seminar @Münster:] *Political Culture and Norms: How Societies Change* [(Syllabus)]({{ site.baseurl }}/assets/pdf/Syllabus_Bischof_SocialNorms.pdf)
 
-*  [BA research seminar @Münster:] *Was wir von wissenschaftlichen Studien lernen können (Kausale Inferenz I)* (soon: Syllabus)
-*  [BA lecture @Münster:] *Einführung in die Vergleichende Politikwissenschaft* (soon: Syllabus)
-
+*  [BA research seminar @Münster:] *Was wir von wissenschaftlichen Studien lernen können (Kausale Inferenz I)* [(Syllabus)]({{ site.baseurl }}/assets/pdf/Syllabus_Bischof_LernenWissenschaft.pdf)
+*  [BA lecture @Münster:] *Einführung in die Vergleichende Politikwissenschaft* [(Syllabus)]({{ site.baseurl }}/assets/pdf/Syllabus_Bischof_Vorlesung_Vergleichende.pdf)
 
 **Former coursework:** 
 *  [MA seminar @Aarhus:] *Political Culture and Norms: How Societies Change* [(Syllabus)]({{ site.baseurl }}/assets/pdf/Bischof_norms_syllabus.pdf)
