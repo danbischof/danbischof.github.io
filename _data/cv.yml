@@ -21,38 +21,36 @@
   type: time_table
   contents:
     - title: PhD
-      institution: University of Leicester, Leicester, United Kingdom 
+      institution: University of Leicester, Leicester, United Kingdom
       year: 2016
- 
-    - title: Diplom (MA) in Political Science 
+    - title: Diplom (MA) in Political Science
       institution: University of Bamberg, Bamberg, Germany
       year: 2013
-
 
 - title: Projects
   type: time_table
   contents:
     - title: <a href="https://demnorm.github.io">DEMNORM (approx. 1 Million Euro funded by Carlsberg Foundation & AUFF)</a>
       year: 2021-now
-      description: My team and I seek to understand the role of social norms for democracy. 
+      description: My team and I seek to understand the role of social norms for democracy.
     - title: <a href="https://extremeentrance.github.io">Extreme Entrance (approx. 700,000 Euros funded by Swiss National Science Foundation)</a>
       year: 2019-2023
-      description: In my SNSF Ambizione project, my research team and I tried to understand the causes and consequences of radical party emergence. 
+      description: In my SNSF Ambizione project, my research team and I tried to understand the causes and consequences of radical party emergence.
 
 - title: Research Interests
   type: nested_list
   contents:
     - title: Comparative Politics & Political Behavior
       items:
-        - Public Opinion. 
-        - Social Norms. 
-        - Rise of Extremism. 
-        - Remedies against Extremism. 
-        - Democratic Attitudes. 
+        - Public Opinion.
+        - Social Norms.
+        - Rise of Extremism.
+        - Remedies against Extremism.
+        - Democratic Attitudes.
     - title: Causal Inference
       items:
-        - Survey experiments. 
+        - Survey experiments.
         - Quasi-experiments.
-        - Field experiments. 
+        - Field experiments.
 
 
