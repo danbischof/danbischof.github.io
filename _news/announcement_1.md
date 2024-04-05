@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Standardization ado for Stata  
+title: Standardization ado for Stata
 date: 2015-08-06 16:00:00
 description: Standardization ado for Stata
 ---
