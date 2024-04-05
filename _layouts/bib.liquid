@@ -83,7 +83,7 @@
           {%- if coauthor_url -%}
             <a href="{{coauthor_url}}">
               {{- author.first }}
-              {{ author.last -}}
+              {{ author.last -}},
             </a>
           {%- else -%}
             {{- author.first }}
@@ -105,7 +105,7 @@
             {%- assign more_authors_show = more_authors_show | append: ', ' -%}
           {%- endunless -%}
         {%- endfor -%}
-        , and
+        , and 
         <span
           class="more-authors"
           title="click to view {{more_authors_hide}}"
