@@ -36,7 +36,7 @@
 
 "falco-gimeno":
   - firstname: ["Albert"]
-    url: https://www.falcogimeno.com   
+    url: https://www.falcogimeno.com
 
 "fink":
   - firstname: ["Simon"]
@@ -50,13 +50,37 @@
   - firstname: ["Kristian Vrede Skaaning"]
     url: https://pure.au.dk/portal/en/persons/kristian-vrede-skaaning-frederiksen(829498fb-8170-4c57-9ab9-cd518dc42551).html
 
+"geißler":
+  - firstname: ["Ferdinand"]
+    url: https://www.sowi.hu-berlin.de/de/lehrbereiche/empisoz/a-z/geisslerferdinand
+
+"giesecke":
+  - firstname: ["Johannes"]
+    url: https://www.sowi.hu-berlin.de/de/lehrbereiche/empisoz/a-z/giesecke
+
+"haas":
+  - firstname: ["Violeta"]
+    url: https://violeta-haas.github.io/
+
+"hartmann":
+  - firstname: ["Felix"]
+    url: https://hartmannfelix.github.io/
+
 "hilbig":
   - firstname: ["Hanno"]
-    url: https://www.hannohilbig.com  
+    url: https://www.hannohilbig.com
+
+"humphreys":
+  - firstname: ["Macartan"]
+    url: https://macartan.github.io/
 
 "indridason":
   - firstname: ["Indridi H."]
-    url: https://www.indridason.politicaldata.org 
+    url: https://www.indridason.politicaldata.org
+
+"klüver":
+  - firstname: ["Heike"]
+    url: https://www.heike-kluever.com/
 
 "kuhn":
   - firstname: ["Patrick", "Patrick M."]
@@ -102,13 +126,17 @@
   - firstname: ["Julia"]
     url: https://jschultecloos.github.io
 
+"stoetzer":
+  - firstname: ["Lukas"]
+    url: https://www.lukas-stoetzer.org/
+
 "thomson":
   - firstname: ["Henry"]
     url: https://www.henrythomson.com
 
 "valentim":
   - firstname: ["Vicente"]
-    url: https://www.vicentevalentim.com 
+    url: https://www.vicentevalentim.com
 
 "visalvanich":
   - firstname: ["Neil"]
@@ -120,11 +148,15 @@
 
 "wagner":
   - firstname: ["Markus"]
-    url: https://www.wagnermarkus.net  
+    url: https://www.wagnermarkus.net
+
+"wappenhans":
+  - firstname: ["Tim"]
+    url: https://www.timwappenhans.com/
 
 "wolkenstein":
   - firstname: ["Fabio"]
-    url: https://politikwissenschaft.univie.ac.at/ueber-uns/mitarbeiterinnen/wolkenstein/ 
+    url: https://politikwissenschaft.univie.ac.at/ueber-uns/mitarbeiterinnen/wolkenstein/
 
 "wouters":
   - firstname: ["Ruud"]
@@ -132,4 +164,4 @@
 
 "ziblatt":
   - firstname: ["Daniel"]
-    url: https://scholar.harvard.edu/dziblatt/home 
+    url: https://scholar.harvard.edu/dziblatt/home
