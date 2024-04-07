@@ -7,6 +7,13 @@ nav: true
 nav_order: 6 
 ---
 
+**FAQ by students:**
+
+Over the years, student inquiries have accumulated, and often the questions are repetitive for me. This document comes with the idea that students first seek answers to their questions in this document before sending an email to me. This helps both sides: students get an immediate answer and don't have to wait for my response. I don't have to constantly deal with the same questions: 
+
+[Teaching Statement: FAQ]({{ site.baseurl }}/assets/pdf/Bischof_teaching_statement_faq.pdf)
+
+
 **Current coursework:**
 *  [MA seminar @Münster:] *Political Culture and Norms: How Societies Change* [(Syllabus)]({{ site.baseurl }}/assets/pdf/Syllabus_Bischof_SocialNorms.pdf)
 
