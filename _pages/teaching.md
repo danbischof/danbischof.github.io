@@ -13,12 +13,13 @@ Over the years, student inquiries have accumulated, and often the questions are 
 
 
 **Current coursework:**
-*  [MA seminar @Münster:] *Political Culture and Norms: How Societies Change* [(Syllabus)]({{ site.baseurl }}/assets/pdf/Syllabus_Bischof_SocialNorms.pdf)
+*  [MA seminar @Münster:] *The key challenges our societies are facing and how to address them: from climate change to inequality* [(Syllabus)]({{ site.baseurl }}/assets/pdf/Syllabus_Bischof_KeyChallenges.pdf)
 
 *  [BA research seminar @Münster:] *Was wir von wissenschaftlichen Studien lernen können (Kausale Inferenz I)* [(Syllabus)]({{ site.baseurl }}/assets/pdf/Syllabus_Bischof_LernenWissenschaft.pdf)
 *  [BA lecture @Münster:] *Einführung in die Vergleichende Politikwissenschaft* [(Syllabus)]({{ site.baseurl }}/assets/pdf/Syllabus_Bischof_Vorlesung_Vergleichende.pdf)
 
 **Former coursework:** 
+*  [MA seminar @Münster:] *Political Culture and Norms: How Societies Change* [(Syllabus)]({{ site.baseurl }}/assets/pdf/Syllabus_Bischof_SocialNorms.pdf)
 *  [MA seminar @Aarhus:] *Political Culture and Norms: How Societies Change* [(Syllabus)]({{ site.baseurl }}/assets/pdf/Bischof_norms_syllabus.pdf)
 *  [MA thesis colloquium @ETH & Uni Zurich:] *MACIS thesis colloquium* [(Syllabus)]({{ site.baseurl }}/assets/pdf/Bischof_MACIS_syllabus.pdf)
 *  [MA seminar @Zurich:] *Invasive Parties: Where New Parties Come From And How They Change Party Systems* [(Syllabus)]({{ site.baseurl }}/assets/pdf/Bischof_InvasiveParties_syllabus.pdf)
