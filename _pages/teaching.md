@@ -13,7 +13,7 @@ Over the years, student inquiries have accumulated, and often the questions are 
 
 
 **Current coursework:**
-*  [Thesis colloquium @Münster:] *Thesis colloquium* [(Syllabus)]({{ site.baseurl }}/assets/pdf//Syllabus_Bischof_Kolloquium.pdf
+*  [Thesis colloquium @Münster:] *Thesis colloquium* [(Syllabus)]({{ site.baseurl }}/assets/pdf/Syllabus_Bischof_Kolloquium.pdf
 .pdf)
 
 *  [MA seminar @Münster:] *The key challenges our societies are facing and how to address them: from climate change to inequality* [(Syllabus)]({{ site.baseurl }}/assets/pdf/Syllabus_Bischof_KeyChallenges.pdf)
