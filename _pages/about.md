@@ -19,9 +19,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am Professor and Chair in Comparative Politics at the University of Münster *(Germany)* as well as a tenured Associate Professor of Political Science at the Department of Political Science at Aarhus University *(Denmark)*. Prior to that, I have been an SNF Ambizione *(2019-2023)* and postdoctoral fellow *(2015-2019)* at the University of Zurich. 
+I am a Professor and Chair of Comparative Politics at the University of Münster (Germany) and a tenured Associate Professor at Aarhus University (Denmark). My research and teaching center on *Comparative Politics*, *Political Behavior*, and *Political Economy*.
 
-I primarily work on and teach *Comparative Politics*, *Political Behavior* and *Political Economy*. As a scientist, I seek to address research questions which are relevant to both the academic as well as the public debate. This means that I work on some of the key challenges contemporary democracies are facing such as the rise of extremism, its societal consequences, remedies to mitigate extremism, and the erosion of social norms more generally. My studies are primarily empirically oriented using research designs which seek to rigorously test theoretical arguments mostly with (quasi-)experimental designs. 
+My work addresses pressing challenges contemporary democracies are facing, including the rise of extremism, its societal impacts, strategies to mitigate it, and the erosion of social norms. Employing rigorous empirical methods, particularly (quasi-)experimental designs, I strive to test theoretical arguments with real-world relevance.
+
+My research has been published in leading journals such as the *American Political Science Review*, *American Journal of Political Science*, *British Journal of Political Science*, and *the Journal of Politics*.
+
+For more information, please explore my website or contact me via email.
 
 &nbsp;
 {:refdef: style="text-align: center;"}
