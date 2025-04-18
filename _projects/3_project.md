@@ -25,7 +25,7 @@ category: finished
     <li><strong>Enhanced placement accuracy:</strong> Voters locate parties more accurately on the left–right spectrum when campaign messages are simpler.</li>
     <li><strong>Comprehension boost:</strong> Simple messages significantly improve citizens’ understanding of policy positions.</li>
     <li><strong>Heuristic effects:</strong> Simple framing leads citizens to perceive speakers as more “of the people” rather than part of an elite.</li>
-    <li><strong>Responsive elites:</strong> MPs respond more frequently and promptly to constituent messages framed in moderate complexity, as demonstrated in our audit experiments.</li>
+    <li><strong>Unresponsive elites:</strong> British MPs do adapt their style and ton to voter demands.</li>
   </ol>
 
   <h3>Implications</h3>
