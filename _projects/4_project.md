@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Communication Styles
+title: Messaging Styles
 description: Studying how political elites craft messages and how voters respond 
 img: assets/img/complexity.jpeg
 importance: 3
