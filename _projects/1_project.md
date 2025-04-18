@@ -2,7 +2,7 @@
 layout: page
 title: Extremism
 description: Studying the causes and consequences of extreme party emergence
-img: assets/img/invasive.jpg
+img: assets/img/extremism.jpg
 importance: 1
 category: ongoing
 related_publications: false
