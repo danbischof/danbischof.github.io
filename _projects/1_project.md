@@ -8,7 +8,7 @@ category: ongoing
 related_publications: false
 ---
 
-  <p>This project speaks to literatures on the causes and consequences of extremist behavior in democracies: research on why hate crimes occur and how they spread (Dancygier &amp; Green 2010; Petersen 2014), studies of radical‑right party entry and its effects on voter polarization and democratic norms (Norris 2005; Rydgren 2007), and work on spatial and contextual drivers of extreme party support (Lipset &amp; Rokkan 1967; Hooghe &amp; Marks 2001).</p>
+  <p>This project speaks to literatures on the causes and consequences of extremist behavior in democracies: research on why hate crimes occur and how they spread, studies of radical‑right party entry and its effects on voter polarization and democratic norms, and work on spatial and contextual drivers of extreme party support.</p>
 
   <p>While prior research has typically examined either the micro‑level triggers of hate crimes or the macro‑level dynamics of extremist party emergence in isolation, no single effort has integrated these behaviors to understand both their origins and their downstream effects on democratic societies. A comprehensive account of how extremist actions—ranging from individual hate crimes to the parliamentary entry of radical parties—arise and reshape political polarization and social stability is still missing.</p>
 
