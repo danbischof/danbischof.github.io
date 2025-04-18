@@ -26,8 +26,9 @@ category: finished
   </ol>
 
   <h3>Implications</h3>
-  <p><strong>For practice:</strong> Simplifying campaign language can democratize information processing, foster broader engagement, and pressure mainstream parties to adopt clearer messaging for electoral competitiveness. Media coverage may likewise gravitate toward more digestible, simplified messages.</p>
-  <p><strong>For social science:</strong> This research underlines the importance of linguistic style as a core dimension of political communication. It advocates integrating readability metrics into manifesto and discourse analyses and demonstrates the value of experimental methods to establish causal effects of message simplicity on voter cognition and perceptions.</p>
+   <p><strong>For practice:</strong> While simplifying campaign language can democratize information processing and foster broader engagement, practitioners must balance clarity with nuance. Overly simplistic messages risk reducing complex policy debates to soundbites, potentially misleading voters and eroding informed democratic deliberation.</p>
+  <p><strong>For social science:</strong> This research highlights linguistic style as a crucial dimension of political communication. It calls for integrating readability metrics into discourse analyses, but also for critical examination of when simplicity becomes an oversimplification that undermines democratic discourse. Future work should explore the threshold at which message clarity shifts from enabling understanding to obscuring complexity.</p>
+
 
   <h3>Publications</h3>
   <ul>
