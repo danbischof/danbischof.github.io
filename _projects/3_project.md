@@ -41,6 +41,6 @@ category: ongoing
   <ul>
     <li><a href="https://osf.io/preprints/osf/42s8e_v1" target="_blank" rel="noopener">Haas, V. I., Wappenhans, T., Geißler, F., Hartmann, F., Bischof, D., et al. (2024). “Does Protest Affect Bystanders? Field Experimental Evidence from Germany.” OSF Preprint.</a></li>
     <li><a href="https://priceschool.usc.edu/wp-content/uploads/2024/09/Thomson.pdf" target="_blank" rel="noopener">Haass, F., De Juan, A., Bischof, D., &amp; Thomson, H. (2024). “Parliamentary Representation and Right‑Wing Violence: Evidence from Nazi Street Brawls in the Weimar Republic.” Working paper.</a></li>
-    <li><strong>Democratic Hypocrisy: Unequal Tolerance for Protest in Germany.</strong> With Morgan Le Corre Juratic &amp; Markus Wagner (2024). Work in progress. A preregistered survey experiment reveals that respondents are more likely to endorse undemocratic measures and restrict democratic rights when protests involve climate activists versus farmers, and they extend selective tolerance biases to support anti‐democratic rhetoric from peers.</li>
+    <li><strong>Democratic Hypocrisy: Unequal Tolerance for Protest in Germany.</strong> With Morgan Le Corre Juratic &amp; Markus Wagner (2024). Work in progress. </li>
     <li><strong>Does Exposure to Radical Right Rallies Affect Political Behavior and Preferences? Evidence From the Far Right Pegida Movement in Germany.</strong> </li>
   </ul>
