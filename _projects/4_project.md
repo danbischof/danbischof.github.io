@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Elite Communication Styles
+title: Communication Styles
 description: Studying how political elites craft messages and how voters respond 
 img: assets/img/complexity.jpeg
 importance: 3
