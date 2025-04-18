@@ -7,29 +7,30 @@ importance: 2
 category: ongoing
 giscus_comments: false
 ---
+  <p>This project builds on social norms theory from social psychology (Cialdini 1991; Bicchieri 2006) to reconceptualize democratic norms as citizens’ perceptions of what others actually do (descriptive norms) and ought to do (injunctive norms), while engaging literature on democratic legitimacy through participatory forums (Fishkin 2009; Dryzek 2000) and on regulatory measures for extremist expression (Valentim &amp; Bischof 2022).</p>
 
-  <p>This project speaks to literature on social norms and democratic stability, research on citizens’ assemblies and legitimacy, and studies of opinion leadership in political behavior.</p>
-
-  <p>While democracy research has examined citizens’ abstract support and institutional trust, the social underpinnings—how individuals’ perceptions of what others do (descriptive norms) and ought to do (injunctive norms) shape democratic attitudes and behaviors—remain underexplored.</p>
+  <p>Traditional democracy research treats citizens’ support as individual attitudes or abstract values, but it overlooks the social dimension of perceptions and misperceptions of collective democratic consensus. Until now, scholarship has neither theorized nor systematically measured how descriptive and injunctive norms shape democratic attitudes and behaviors, nor evaluated interventions that correct misperceptions and bolster democratic resilience.</p>
 
   <h3>How we addressed it</h3>
   <ul>
-    <li><strong>Cross‑national surveys:</strong> Measured descriptive and injunctive democratic norms across 14 countries, using nationally representative data covering 31 % of the world’s population.</li>
-    <li><strong>Vignette experiments:</strong> Embedded manipulated norm messages in large‑scale survey experiments (N &gt; 7,000) to test causal effects on democratic support, protest tolerance, and hate‑crime justification.</li>
-    <li><strong>Policy‑forum simulations:</strong> Designed conjoint experiments mirroring citizens’ assemblies to assess the influence of local opinion leaders on policy proposal support.</li>
+    <li><strong>Conceptual framework:</strong> Theorized democratic norms as social norms and identified mechanisms of normative influence.</li>
+    <li><strong>Cross‑national measurement:</strong> Nationally representative surveys in 14 democracies (31 % of world population) to gauge perceived descriptive and injunctive norms.</li>
+    <li><strong>Measurement experiments:</strong> Applied a novel social desirability bias method to validate stability of norm perceptions versus personal attitudes.</li>
+    <li><strong>Vignette experiments:</strong> Embedded manipulated norm messages to test causal effects on democratic support, protest tolerance, and hate‑crime justification.</li>
   </ul>
 
   <h3>Key Findings</h3>
   <ol>
-    <li><strong>Strong but abstract norms:</strong> Citizens overestimate peer support for democracy in the abstract, but this perceived consensus weakens when evaluating specific democratic rights.</li>
-    <li><strong>Norms shape tolerance:</strong> Higher perceived descriptive norms increase tolerance for real‑world protest groups, whereas injunctive norms have conditional effects depending on group identity.</li>
-    <li><strong>Opinion leader cues:</strong> Local opinion leaders significantly amplify policy‑proposal support when their positions align with prevailing norms and shared social identity.</li>
-    <li><strong>Risk of oversimplification:</strong> Framing democratic values as a monolithic consensus can obscure pluralistic interpretations and marginalize minority viewpoints.</li>
+    <li><strong>Abstract consensus:</strong> Citizens perceive strong democratic consensus in the abstract, which significantly weakens for specific rights and institutional norms.</li>
+    <li><strong>Norm misperception gap:</strong> People overestimate descriptive support for democracy, while injunctive norms vary across contexts and groups.</li>
+    <li><strong>Robustness to bias:</strong> Perceptions of others’ normative beliefs remain stable under social desirability controls, whereas personal democratic attitudes are more susceptible to bias.</li>
+    <li><strong>Normative influence:</strong> Descriptive norm messages can increase tolerance for protest and reduce justification for hate crimes, but effects depend on message framing and social identity.</li>
+    <li><strong>Intervention outcomes:</strong> Across six challenged democracies, support for real‑world undemocratic behaviors—though higher than for hypothetical scenarios—is significantly more malleable, with interventions reducing endorsement of actual transgressions more effectively than for abstract ones.</li>
   </ol>
 
   <h3>Implications</h3>
-  <p><strong>For practice:</strong> Civic education and participatory forums should foster nuanced norm discussions to guard against false consensus and democratic complacency. Opinion‑leader interventions can boost legitimacy but must avoid reinforcing echo chambers.</p>
-  <p><strong>For social science:</strong> Incorporating social‑norms theory enriches democracy research, urging scholars to refine measures of descriptive and injunctive norms and examine their heterogeneous effects across contexts and groups.</p>
+  <p><strong>For practice:</strong> Democracies should deploy norm‑correcting interventions—such as deliberative citizens’ assemblies—to foster accurate norm perceptions and social cohesion. Complementary institutional measures, like regulating extremist ideology through employment or representation bans, can reinforce democratic resilience.</p>
+  <p><strong>For social science:</strong> This work urges integration of social‑norms theory into democratic stability research, refinement of measurement tools for descriptive and injunctive norms, and systematic evaluation of normative and regulatory interventions. Future studies should assess the efficacy of participatory forums and policy safeguards in sustaining democratic norms.</p>
 
   <h3>Publications</h3>
   <ul>
@@ -49,6 +50,6 @@ giscus_comments: false
 
   <h3>Funding</h3>
   <ul>
-    <li>Carlsberg Foundation Young Researcher Fellowship (2022–2025): ¤ 595 358 [DKK 4 426 844]</li>
-    <li>AUFF Starting Grant 2021 (2022–2025): ¤ 380 000 [DKK 2 817 961]</li>
+    <li>Carlsberg Foundation Young Researcher Fellowship (2022–2025): € 595 358 [DKK 4 426 844]</li>
+    <li>AUFF Starting Grant 2021 (2022–2025): € 380 000 [DKK 2 817 961]</li>
   </ul>
