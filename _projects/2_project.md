@@ -29,7 +29,7 @@ giscus_comments: false
   </ol>
 
   <h3>Implications</h3>
-  <p><strong>For practice:</strong> Democracies should deploy norm‑correcting interventions—such as deliberative citizens’ assemblies—to foster accurate norm perceptions and social cohesion. Complementary institutional measures, like regulating extremist ideology through employment or representation bans, can reinforce democratic resilience.</p>
+  <p><strong>For practice:</strong> Democracies should deploy norm‑correcting interventions—such as deliberative citizens’ assemblies—to foster accurate norm perceptions and social cohesion. Complementary institutional measures, like regulating extremist ideology through employment or representation bans, *cannot* reinforce democratic resilience.</p>
   <p><strong>For social science:</strong> This work urges integration of social‑norms theory into democratic stability research, refinement of measurement tools for descriptive and injunctive norms, and systematic evaluation of normative and regulatory interventions. Future studies should assess the efficacy of participatory forums and policy safeguards in sustaining democratic norms.</p>
 
   <h3>Publications</h3>
