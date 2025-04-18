@@ -1,39 +1,46 @@
 ---
 layout: page
-title: Diffusion
-description: Studying how parties' policy positions diffuse across nations
-img: assets/img/diffusion.jpg
-importance: 4
+title: Elite Communication Styles
+description: Studying how political elites craft messages and how voters respond 
+img: assets/img/complexity.jpeg
+importance: 3
 category: finished
 ---
 
+ <p>This project speaks to multiple strands of political communication research, including elite messaging strategies and manifesto analysis (Adams 2001; Budge et al. 2001; Laver et al. 2003), audit experiments on political responsiveness (Bischof et al. 2021), and studies of linguistic complexity and framing effects in campaign messages (Canovan 1999; Moffitt &amp; Tormey 2014).</p>
 
-  <p>This project speaks to research on policy diffusion and transnational party learning (Dobbin et al. 2007; Weyland 2005), the multilevel governance literature on EU integration and party behavior (Hix 2002; Hooghe & Marks 2001), and studies of party organization and nonlegislative parliamentary activities (Green‑Pedersen 2010; Proksch & Slapin 2011).</p>
-
-  <p>Although the policy diffusion literature examines how policies and ideas travel across jurisdictions, it largely treats states as unitary actors. Little is known about how political parties—especially across national and European levels—engage in policy diffusion and issue transfer, and about the role of transnational alliances and party networks in shaping domestic and EU‑level agendas.</p>
+  <p>While much work examines what political elites say and how voters interpret policy content, less is known about the interplay between elite communication style—complexity, framing, source cues—and elite responsiveness to constituent signals. Few studies have combined text‐as‐data analyses of elite messaging with field‐experimental audits of how those messages shape elite behavior.</p>
 
   <h3>How we addressed it</h3>
   <ul>
-    <li><strong>Conceptual synthesis:</strong> We developed a pluralistic framework of party policy diffusion and issue transfer in the European multilevel space, distinguishing key actors, objects, and mechanisms of diffusion.</li>
-    <li><strong>Spatial econometric analysis:</strong> We applied spatial regression models to Comparative Manifesto Project data from 26 Western European democracies (1977–2016) to test how EP party group memberships drive ideological diffusion among national parties.</li>
-    <li><strong>Dyadic panel analysis:</strong> We constructed a monthly dyadic dataset of written parliamentary questions by Danish MPs and MEPs (1999–2009) to examine when and how policy issues transfer across national and European parliamentary venues.</li>
+    <li><strong>Textual analysis:</strong> Developed and validated the LIX readability index (Björnsson 1968) on 175 party manifestos from Austria and Germany (1945–2013).</li>
+    <li><strong>Survey experiments:</strong> Preregistered two‑wave vignette and conjoint experiments in Germany (N = 5,800) testing how simple versus sophisticated framing affects political knowledge and candidate perceptions.</li>
+    <li><strong>Audit experiments:</strong> Designed confederate‐based field experiments that minimize deception to measure MPs’ responsiveness to constituent messages of varying style.</li>
+    <li><strong>Elite messaging preprint:</strong> Extended our framework to analyze elite communication styles and their downstream effects on voter engagement and perceptions in a recent OSF preprint.</li>
   </ul>
 
   <h3>Key Findings</h3>
   <ol>
-    <li><strong>Transnational alliance effects:</strong> Parties sharing an EP party group exhibit two‑to‑three times stronger short‑ and long‑term ideological imitation than parties outside the group.</li>
-    <li><strong>Multilevel policy issue transfer:</strong> Policy issues transfer regularly between national and European venues—occurring in 15 % of monthly party dyads—and predominantly within parties sharing the same brand.</li>
-    <li><strong>Directional agenda‑setting:</strong> Transfers are more likely from the domestic to the EU level, especially in policy areas where the EU holds substantial legislative authority.</li>
-    <li><strong>Conceptual pluralism:</strong> Diffusion unfolds across principles, aims, and concrete policies, underscoring the need for combined quantitative (spatial models, text analysis) and qualitative approaches.</li>
+    <li><strong>Populist simplicity:</strong> Populist parties systematically use less complex language—shorter words, shorter sentences—than mainstream competitors.</li>
+    <li><strong>Enhanced placement accuracy:</strong> Voters locate parties more accurately on the left–right spectrum when campaign messages are simpler.</li>
+    <li><strong>Comprehension boost:</strong> Simple messages significantly improve citizens’ understanding of policy positions.</li>
+    <li><strong>Heuristic effects:</strong> Simple framing leads citizens to perceive speakers as more “of the people” rather than part of an elite.</li>
+    <li><strong>Unresponsive elites:</strong> British MPs do adapt their style and ton to voter demands.</li>
   </ol>
 
   <h3>Implications</h3>
-  <p><strong>For practice:</strong> Party strategists and policymakers should recognize that EP party group memberships exert a powerful influence on domestic platforms and issue priorities. While leveraging transnational networks can enhance policy coherence and expertise sharing, parties must guard against echo‑chamber effects that stifle innovation and reduce responsiveness to local constituents.</p>
-  <p><strong>For social science:</strong> This work demonstrates the need for pluralistic methodological toolkits—combining spatial econometrics, dyadic panel analysis, and qualitative case studies—to capture the multifaceted nature of party policy diffusion. Researchers should refine measures to distinguish the diffusion of principles, aims, and concrete policies, and explore the democratic implications of convergence across parties.</p>
+  <p><strong>For practice:</strong> Political elites and strategists should calibrate their communication style—balancing clarity and nuance—and consider how message complexity influences both voter comprehension and elite responsiveness. Field audits reveal practical and ethical considerations for testing elite behavior in real settings.</p>
+  <p><strong>For social science:</strong> Combining text‐as‐data methods with audit experiments opens new avenues for studying political messaging. Future work should integrate linguistic analysis, survey experiments, and field audits to capture the full lifecycle of elite communication and its effects on democratic processes.</p>
 
   <h3>Publications</h3>
   <ul>
-    <li><a href="https://www.danbischof.com/assets/pdf/SenningerBischofEzrow2021PSRM.pdf" target="_blank" rel="noopener">Senninger, R., Bischof, D., &amp; Ezrow, L. (2021). “How transnational party alliances influence national parties’ policies.” Political Science Research and Methods.</a></li>
-    <li><a href="https://www.danbischof.com/assets/pdf/WolkensteinSenningerBischof2020JEPOP.pdf" target="_blank" rel="noopener">Wolkenstein, F., Senninger, R., &amp; Bischof, D. (2020). “Party policy diffusion in the European multilevel space: what it is, how it works, and why it matters.” Journal of Elections, Public Opinion and Parties.</a></li>
-    <li><a href="https://www.danbischof.com/assets/pdf/SenningerBischof2018EUP.pdf" target="_blank" rel="noopener">Senninger, R., &amp; Bischof, D. (2018). “Working in unison: Political parties and policy issue transfer in the multilevel space.” European Union Politics.</a></li>
+    <li><a href="https://osf.io/preprints/osf/z8ycg_v1" target="_blank" rel="noopener">Bischof, D., Cheng‐Matsuno, V., Cohen, G., et al. (2025). “Elite Communication Styles and Voter Engagement.” OSF Preprint.</a></li>
+    <li><a href="https://www.danbischof.com/assets/pdf/Bischofetal2021PSR.pdf" target="_blank" rel="noopener">Bischof, D., Cohen, G., Cohen, S., Foos, F., Kuhn, P. M., Nanou, K., Visalvanich, N., & Vivyan, N. (2021). “Advantages, Challenges and Limitations of Audit Experiments with Constituents.” Political Studies Review.</a></li>
+    <li><a href="https://osf.io/cgz4k_v1/" target="_blank" rel="noopener">Bischof, D., & Senninger, R. (2025). “How Simple Messages Affect Voters’ Knowledge and Their Perceptions of Politicians.” Journal of Politics.</a></li>
+    <li><a href="https://www.danbischof.com/assets/pdf/BischofSenninger2018EJPR.pdf" target="_blank" rel="noopener">Bischof, D., & Senninger, R. (2018). “Simple politics for the people? Complexity in campaign messages and political knowledge.” European Journal of Political Research.</a></li>
+  </ul>
+
+  <h3>Funding</h3>
+  <ul>
+    <li>British Academy/Leverhulme Trust Small Research Grant with Florian Foos &amp; Kyriaki Nanou: € 11 000 [£ 9 870] (2017–2019)</li>
   </ul>

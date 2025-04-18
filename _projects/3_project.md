@@ -1,46 +1,46 @@
 ---
 layout: page
-title: Elite Communication Styles
-description: Studying how political elites craft messages and how voters respond 
-img: assets/img/complexity.jpeg
+title: protest
+description: Studying how protest affects society
+img: assets/img/protest.jpg
 importance: 3
-category: finished
+category: ongoing
 ---
 
- <p>This project speaks to multiple strands of political communication research, including elite messaging strategies and manifesto analysis (Adams 2001; Budge et al. 2001; Laver et al. 2003), audit experiments on political responsiveness (Bischof et al. 2021), and studies of linguistic complexity and framing effects in campaign messages (Canovan 1999; Moffitt &amp; Tormey 2014).</p>
-
-  <p>While much work examines what political elites say and how voters interpret policy content, less is known about the interplay between elite communication style—complexity, framing, source cues—and elite responsiveness to constituent signals. Few studies have combined text‐as‐data analyses of elite messaging with field‐experimental audits of how those messages shape elite behavior.</p>
+  <p>Previous research on protest frequently focuses on societal impacts—how protests influence elites and policymaking—but much less is known about how protests affect bystanders in exposed communities. To better understand this, our research design focuses exactly on these bystanders: how they perceive protest and how direct exposure in local communities matters.</p>
 
   <h3>How we addressed it</h3>
   <ul>
-    <li><strong>Textual analysis:</strong> Developed and validated the LIX readability index (Björnsson 1968) on 175 party manifestos from Austria and Germany (1945–2013).</li>
-    <li><strong>Survey experiments:</strong> Preregistered two‑wave vignette and conjoint experiments in Germany (N = 5,800) testing how simple versus sophisticated framing affects political knowledge and candidate perceptions.</li>
-    <li><strong>Audit experiments:</strong> Designed confederate‐based field experiments that minimize deception to measure MPs’ responsiveness to constituent messages of varying style.</li>
-    <li><strong>Elite messaging preprint:</strong> Extended our framework to analyze elite communication styles and their downstream effects on voter engagement and perceptions in a recent OSF preprint.</li>
+    <li><strong>Field experiment:</strong> Conducted a large‑scale randomized field experiment assigning citizens to observe local demonstrations and measuring changes in their perceptions, social‑norm beliefs, and behavioral intentions.</li>
+    <li><strong>Fine-grained local data analysis:</strong> Compiled street‑level data on PEGIDA rallies (2014–2018) and applied difference‑in‑differences and matching methods to estimate impacts on local electoral outcomes and immigration attitudes.</li>
+    <li><strong>Historical panel study, fuzzy RDD:</strong> Collected geocoded data on Nazi‑era street brawls and applied panel analyses to assess the long‑term effects of extremist violence on local political behavior.</li>
+    <li><strong>Vignette survey experiment:</strong> Experiment comparing reactions to identical protest tactics by farmers versus climate activists to uncover democratic hypocrisy.</li>
   </ul>
 
   <h3>Key Findings</h3>
   <ol>
-    <li><strong>Populist simplicity:</strong> Populist parties systematically use less complex language—shorter words, shorter sentences—than mainstream competitors.</li>
-    <li><strong>Enhanced placement accuracy:</strong> Voters locate parties more accurately on the left–right spectrum when campaign messages are simpler.</li>
-    <li><strong>Comprehension boost:</strong> Simple messages significantly improve citizens’ understanding of policy positions.</li>
-    <li><strong>Heuristic effects:</strong> Simple framing leads citizens to perceive speakers as more “of the people” rather than part of an elite.</li>
-    <li><strong>Unresponsive elites:</strong> British MPs do adapt their style and ton to voter demands.</li>
+    <li><strong>Bystander behavior:</strong> Witnessing protests increases bystanders’ alignment with protest demands in their actions, even though their underlying attitudes remain largely unchanged.</li>
+    <li><strong>Electoral spillover:</strong> Exposure to PEGIDA rallies leads to significant increases in radical‑right vote shares and support for stricter migration controls among mainstream right‑leaning voters, while left‑leaning voters exhibit a backlash.</li>
+    <li><strong>Heterogeneous responses:</strong> Effects vary across social identities and prior political orientations, highlighting that protest exposure can both mobilize sympathizers and provoke counter‑mobilization among opponents.</li>
+    <li><strong>Selective tolerance:</strong> Citizens are significantly more willing to endorse undemocratic responses (e.g., imprisonment without trial) and restrict key rights when protests involve climate activists versus farmers.</li>
+    <li><strong>Normalization of intolerance:</strong> Democratic hypocrisy extends to support for anti‐democratic rhetoric from fellow citizens, indicating a risk of normalizing intolerance through selective tolerance biases.</li>
   </ol>
 
   <h3>Implications</h3>
-  <p><strong>For practice:</strong> Political elites and strategists should calibrate their communication style—balancing clarity and nuance—and consider how message complexity influences both voter comprehension and elite responsiveness. Field audits reveal practical and ethical considerations for testing elite behavior in real settings.</p>
-  <p><strong>For social science:</strong> Combining text‐as‐data methods with audit experiments opens new avenues for studying political messaging. Future work should integrate linguistic analysis, survey experiments, and field audits to capture the full lifecycle of elite communication and its effects on democratic processes.</p>
+  <p><strong>For protest organizers:</strong> Organizers should design protests to maximize constructive bystander engagement—using clear signage, respectful framing, and follow‑up materials—to turn passive observers into supporters while minimizing backlash. Embedding dialogue stations or distributing informative pamphlets can help sustain the mobilizing effects beyond the event itself.</p>
+  <p><strong>For political elites:</strong> Elected officials must recognize that local protests can reshape vote shares and issue salience. Proactive outreach—such as town halls in protest‑exposed neighborhoods and public acknowledgments of grievances—can channel protest energy into institutional debates rather than polarized backlash.</p>
+  <p><strong>For social science:</strong> Combining field experiments with fine-grained protest data uncovers the nuanced ways in which protest exposure shapes bystander behavior and local politics. Future work should examine the psychological and media‑mediated mechanisms underlying these heterogeneous effects.</p>
 
   <h3>Publications</h3>
   <ul>
-    <li><a href="https://osf.io/preprints/osf/z8ycg_v1" target="_blank" rel="noopener">Bischof, D., Cheng‐Matsuno, V., Cohen, G., et al. (2025). “Elite Communication Styles and Voter Engagement.” OSF Preprint.</a></li>
-    <li><a href="https://www.danbischof.com/assets/pdf/Bischofetal2021PSR.pdf" target="_blank" rel="noopener">Bischof, D., Cohen, G., Cohen, S., Foos, F., Kuhn, P. M., Nanou, K., Visalvanich, N., & Vivyan, N. (2021). “Advantages, Challenges and Limitations of Audit Experiments with Constituents.” Political Studies Review.</a></li>
-    <li><a href="https://osf.io/cgz4k_v1/" target="_blank" rel="noopener">Bischof, D., & Senninger, R. (2025). “How Simple Messages Affect Voters’ Knowledge and Their Perceptions of Politicians.” Journal of Politics.</a></li>
-    <li><a href="https://www.danbischof.com/assets/pdf/BischofSenninger2018EJPR.pdf" target="_blank" rel="noopener">Bischof, D., & Senninger, R. (2018). “Simple politics for the people? Complexity in campaign messages and political knowledge.” European Journal of Political Research.</a></li>
+    <li><a href="https://www.danbischof.com/assets/pdf/BernardiBischofWouters2021JEPP.pdf" target="_blank" rel="noopener">Bernardi, F., Bischof, D., &amp; Wouters, R. (2021). “Does Exposure to Radical Right Rallies Affect Political Behavior and Preferences? Evidence From the Far Right Pegida Movement in Germany.” Journal of European Public Policy.</a></li>
+    <li><a href="https://www.danbischof.com/assets/pdf/BischofFink2015SPSR.pdf" target="_blank" rel="noopener">Bischof, D., &amp; Fink, C. (2015). “Protest Effects on Electoral Mobilization: An Experimental Approach.” Swiss Political Science Review, 21(2), 149–166.</a></li>
   </ul>
 
-  <h3>Funding</h3>
+  <h3>Working Papers</h3>
   <ul>
-    <li>British Academy/Leverhulme Trust Small Research Grant with Florian Foos &amp; Kyriaki Nanou: € 11 000 [£ 9 870] (2017–2019)</li>
+    <li><a href="https://osf.io/preprints/osf/42s8e_v1" target="_blank" rel="noopener">Haas, V. I., Wappenhans, T., Geißler, F., Hartmann, F., Bischof, D., et al. (2024). “Does Protest Affect Bystanders? Field Experimental Evidence from Germany.” OSF Preprint.</a></li>
+    <li><a href="https://priceschool.usc.edu/wp-content/uploads/2024/09/Thomson.pdf" target="_blank" rel="noopener">Haass, F., De Juan, A., Bischof, D., &amp; Thomson, H. (2024). “Parliamentary Representation and Right‑Wing Violence: Evidence from Nazi Street Brawls in the Weimar Republic.” Working paper.</a></li>
+    <li><strong>Democratic Hypocrisy: Unequal Tolerance for Protest in Germany.</strong> With Morgan Le Corre Juratic &amp; Markus Wagner (2024). Work in progress. A preregistered survey experiment reveals that respondents are more likely to endorse undemocratic measures and restrict democratic rights when protests involve climate activists versus farmers, and they extend selective tolerance biases to support anti‐democratic rhetoric from peers.</li>
+    <li><strong>Does Exposure to Radical Right Rallies Affect Political Behavior and Preferences? Evidence From the Far Right Pegida Movement in Germany.</strong> </li>
   </ul>
