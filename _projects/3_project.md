@@ -32,6 +32,6 @@ category: finished
 
   <h3>Publications</h3>
   <ul>
+  	<li><a href="https://osf.io/cgz4k_v1/" target="_blank" rel="noopener">Bischof, D., &amp; Senninger, R. (2025). “How Simple Messages Affect Voters’ Knowledge and Their Perceptions of Politicians: Evidence From a Large-Scale Survey Experiment.” Journal of Politics.</a></li>
     <li><a href="https://www.danbischof.com/assets/pdf/BischofSenninger2018EJPR.pdf" target="_blank" rel="noopener">Bischof, D., &amp; Senninger, R. (2018). “Simple politics for the people? Complexity in campaign messages and political knowledge.” European Journal of Political Research.</a></li>
-    <li><a href="https://osf.io/cgz4k_v1/" target="_blank" rel="noopener">Bischof, D., &amp; Senninger, R. (2025). “How Simple Messages Affect Voters’ Knowledge and Their Perceptions of Politicians: Evidence From a Large-Scale Survey Experiment.” Journal of Politics.</a></li>
   </ul>

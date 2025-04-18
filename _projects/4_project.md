@@ -33,7 +33,7 @@ category: finished
 
   <h3>Publications</h3>
   <ul>
-    <li><a href="https://doi.org/10.1017/psrm.2020.55" target="_blank" rel="noopener">Senninger, R., Bischof, D., &amp; Ezrow, L. (2021). “How transnational party alliances influence national parties’ policies.” Political Science Research and Methods. https://doi.org/10.1017/psrm.2020.55</a></li>
-    <li><a href="https://doi.org/10.1080/17457289.2019.1666403" target="_blank" rel="noopener">Wolkenstein, F., Senninger, R., &amp; Bischof, D. (2020). “Party policy diffusion in the European multilevel space: what it is, how it works, and why it matters.” Journal of Elections, Public Opinion and Parties, 30(3), 339–357. https://doi.org/10.1080/17457289.2019.1666403</a></li>
-    <li><a href="https://doi.org/10.1177/1465116517733819" target="_blank" rel="noopener">Senninger, R., &amp; Bischof, D. (2018). “Working in unison: Political parties and policy issue transfer in the multilevel space.” European Union Politics, 19(1), 140–162. https://doi.org/10.1177/1465116517733819</a></li>
+    <li><a href="https://www.danbischof.com/assets/pdf/SenningerBischofEzrow2021PSRM.pdf" target="_blank" rel="noopener">Senninger, R., Bischof, D., &amp; Ezrow, L. (2021). “How transnational party alliances influence national parties’ policies.” Political Science Research and Methods.</a></li>
+    <li><a href="https://www.danbischof.com/assets/pdf/WolkensteinSenningerBischof2020JEPOP.pdf" target="_blank" rel="noopener">Wolkenstein, F., Senninger, R., &amp; Bischof, D. (2020). “Party policy diffusion in the European multilevel space: what it is, how it works, and why it matters.” Journal of Elections, Public Opinion and Parties.</a></li>
+    <li><a href="https://www.danbischof.com/assets/pdf/SenningerBischof2018EUP.pdf" target="_blank" rel="noopener">Senninger, R., &amp; Bischof, D. (2018). “Working in unison: Political parties and policy issue transfer in the multilevel space.” European Union Politics.</a></li>
   </ul>
