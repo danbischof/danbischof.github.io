@@ -10,7 +10,7 @@ related_publications: false
 
   <p>This project speaks to literatures on the causes and consequences of extremist behavior in democracies: research on why hate crimes occur and how they spread, studies of radical‑right party entry and its effects on voter polarization and democratic norms, and work on spatial and contextual drivers of extreme party support.</p>
 
-  <p>While prior research has typically examined either the micro‑level triggers of hate crimes or the macro‑level dynamics of extremist party emergence in isolation, no single effort has integrated these behaviors to understand both their origins and their downstream effects on democratic societies. A comprehensive account of how extremist actions—ranging from individual hate crimes to the parliamentary entry of radical parties—arise and reshape political polarization and social stability is still missing.</p>
+  <p>While prior research has typically examined either the micro‑level triggers of hate crimes or the macro‑level dynamics of extremist party emergence in isolation, no single effort has integrated these behaviors to understand both their origins and their downstream effects on democratic societies. A comprehensive account of how extremist actions -- ranging from individual hate crimes to the parliamentary entry of radical parties—arise and reshape political polarization and social stability is still missing.</p>
 
   <h3>How we addressed it</h3>
   <ul>
@@ -29,7 +29,7 @@ related_publications: false
   </ol>
 
   <h3>Implications</h3>
-  <p><strong>For practice:</strong> Policymakers and campaign strategists should anticipate local conflict triggers and backlash dynamics, design interventions to mitigate intergroup violence, and harness transparent grassroots engagement—while guarding against polarization when extremist voices gain legitimacy.</p>
+  <p><strong>For practice:</strong> Policymakers and campaign strategists should anticipate local conflict triggers and backlash dynamics, design interventions to mitigate intergroup violence, and harness transparent grassroots engagement -- while guarding against polarization when extremist voices gain legitimacy.</p>
   <p><strong>For social science:</strong> A pluralistic, mixed‑methods toolkit is essential: integrating event‑history designs, spatial econometrics, digital trace data, and longitudinal voter models to capture the multifaceted consequences of extremist behavior for democratic stability.</p>
 
   <h3>Publications</h3>
