@@ -94,6 +94,10 @@
   - firstname: ["Valentin"]
     url: http://www.valentinlang.com
 
+"leuschner":
+  - firstname: ["Elena"]
+    url: https://elenaleuschner.github.io/
+
 "lühiste":
   - firstname: ["Maarja"]
     url: https://www.ncl.ac.uk/gps/staff/profile/maarjaluhiste.html
@@ -153,6 +157,10 @@
 "wappenhans":
   - firstname: ["Tim"]
     url: https://www.timwappenhans.com/
+
+"wegemann":
+  - firstname: ["Mirko"]
+    url: https://mirko-wegemann.github.io/
 
 "wolkenstein":
   - firstname: ["Fabio"]
