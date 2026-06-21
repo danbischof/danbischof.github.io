@@ -1,0 +1,63 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#ffffff"/>
+
+  <!-- Left side label -->
+  <text x="200" y="32" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="13" font-weight="600" fill="#888" letter-spacing="3">COMPLEX</text>
+  <!-- Right side label -->
+  <text x="600" y="32" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="13" font-weight="600" fill="#2c6496" letter-spacing="3">SIMPLE</text>
+
+  <!-- LEFT: dense, dark, many lines close together -->
+  <g fill="#2a2a2a" opacity="0.72">
+    <rect x="40" y="52"  width="310" height="7" rx="3.5"/>
+    <rect x="40" y="66"  width="295" height="7" rx="3.5"/>
+    <rect x="40" y="80"  width="308" height="7" rx="3.5"/>
+    <rect x="40" y="94"  width="285" height="7" rx="3.5"/>
+    <rect x="40" y="108" width="312" height="7" rx="3.5"/>
+    <rect x="40" y="122" width="290" height="7" rx="3.5"/>
+    <rect x="40" y="136" width="305" height="7" rx="3.5"/>
+    <rect x="40" y="150" width="278" height="7" rx="3.5"/>
+    <rect x="40" y="164" width="315" height="7" rx="3.5"/>
+    <rect x="40" y="178" width="288" height="7" rx="3.5"/>
+    <rect x="40" y="192" width="302" height="7" rx="3.5"/>
+    <rect x="40" y="206" width="282" height="7" rx="3.5"/>
+    <rect x="40" y="220" width="308" height="7" rx="3.5"/>
+    <rect x="40" y="234" width="276" height="7" rx="3.5"/>
+    <rect x="40" y="248" width="295" height="7" rx="3.5"/>
+    <rect x="40" y="262" width="310" height="7" rx="3.5"/>
+    <rect x="40" y="276" width="285" height="7" rx="3.5"/>
+    <rect x="40" y="290" width="300" height="7" rx="3.5"/>
+    <rect x="40" y="304" width="290" height="7" rx="3.5"/>
+    <rect x="40" y="318" width="306" height="7" rx="3.5"/>
+    <rect x="40" y="332" width="278" height="7" rx="3.5"/>
+    <rect x="40" y="346" width="298" height="7" rx="3.5"/>
+    <rect x="40" y="360" width="285" height="7" rx="3.5"/>
+  </g>
+  <!-- Complexity score pill left -->
+  <rect x="40" y="375" width="80" height="14" rx="7" fill="#aaa" opacity="0.3"/>
+  <text x="80" y="386" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="10" fill="#888">FK: 2</text>
+
+  <!-- Vertical divider -->
+  <line x1="400" y1="20" x2="400" y2="390" stroke="#e0e0e0" stroke-width="1.5"/>
+
+  <!-- RIGHT: sparse, blue, few wide lines with much white space -->
+  <g fill="#2c6496" opacity="0.85">
+    <rect x="450" y="68"  width="210" height="12" rx="6"/>
+    <rect x="450" y="118" width="250" height="12" rx="6"/>
+    <rect x="450" y="168" width="185" height="12" rx="6"/>
+    <rect x="450" y="218" width="230" height="12" rx="6"/>
+    <rect x="450" y="268" width="200" height="12" rx="6"/>
+    <rect x="450" y="318" width="220" height="12" rx="6"/>
+    <rect x="450" y="368" width="175" height="12" rx="6"/>
+  </g>
+  <!-- Readability score pill right -->
+  <rect x="450" y="375" width="80" height="14" rx="7" fill="#2c6496" opacity="0.15"/>
+  <text x="490" y="386" text-anchor="middle" font-family="-apple-system,sans-serif" font-size="10" fill="#2c6496">FK: 68</text>
+
+  <!-- Arrow pointing left→right to show transformation -->
+  <path d="M370,200 L430,200" stroke="#ccc" stroke-width="2" fill="none" marker-end="url(#arr2)"/>
+  <defs>
+    <marker id="arr2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#ccc"/>
+    </marker>
+  </defs>
+</svg>

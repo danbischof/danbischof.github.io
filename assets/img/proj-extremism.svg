@@ -1,0 +1,37 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#f8f9fa"/>
+  <!-- Window outer frame -->
+  <rect x="80" y="30" width="640" height="340" fill="none" stroke="#2c6496" stroke-width="20"/>
+  <!-- Cross bar vertical -->
+  <rect x="380" y="30" width="40" height="340" fill="#2c6496"/>
+  <!-- Cross bar horizontal -->
+  <rect x="80" y="180" width="640" height="40" fill="#2c6496"/>
+  <!-- Pane fills -->
+  <rect x="100" y="50"  width="280" height="130" fill="#dce8f5" opacity="0.6"/>
+  <rect x="420" y="50"  width="280" height="130" fill="#dce8f5" opacity="0.85"/>
+  <rect x="100" y="220" width="280" height="130" fill="#dce8f5" opacity="0.85"/>
+  <rect x="420" y="220" width="280" height="130" fill="#dce8f5" opacity="0.85"/>
+  <!-- Impact point -->
+  <circle cx="220" cy="110" r="16" fill="#2c3340"/>
+  <!-- Cracks -->
+  <g stroke="#3a4a5c" stroke-linecap="round">
+    <line x1="220" y1="110" x2="100" y2="50"  stroke-width="2.8"/>
+    <line x1="220" y1="110" x2="195" y2="50"  stroke-width="2.4"/>
+    <line x1="220" y1="110" x2="380" y2="65"  stroke-width="2.2"/>
+    <line x1="220" y1="110" x2="380" y2="180" stroke-width="2.6"/>
+    <line x1="220" y1="110" x2="305" y2="180" stroke-width="2.4"/>
+    <line x1="220" y1="110" x2="155" y2="180" stroke-width="2.2"/>
+    <line x1="220" y1="110" x2="100" y2="140" stroke-width="2.4"/>
+    <line x1="158" y1="73"  x2="100" y2="90"  stroke-width="1.4"/>
+    <line x1="158" y1="73"  x2="185" y2="50"  stroke-width="1.4"/>
+    <line x1="305" y1="80"  x2="360" y2="55"  stroke-width="1.4"/>
+    <line x1="305" y1="80"  x2="350" y2="100" stroke-width="1.2"/>
+    <line x1="320" y1="148" x2="360" y2="165" stroke-width="1.4"/>
+    <line x1="186" y1="157" x2="165" y2="180" stroke-width="1.2"/>
+    <line x1="128" y1="130" x2="100" y2="118" stroke-width="1.2"/>
+  </g>
+  <!-- Glass shards -->
+  <polygon points="140,68 170,53 188,76 155,82" fill="#f0f6fd" stroke="#9ab4cc" stroke-width="0.8" opacity="0.95"/>
+  <polygon points="255,62 290,51 308,75 270,80" fill="#f0f6fd" stroke="#9ab4cc" stroke-width="0.8" opacity="0.9"/>
+  <polygon points="340,130 368,122 375,155 345,158" fill="#f0f6fd" stroke="#9ab4cc" stroke-width="0.8" opacity="0.9"/>
+</svg>

@@ -1,0 +1,48 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#eef2f8"/>
+
+  <!-- Background arcs suggesting community consensus -->
+  <circle cx="400" cy="200" r="175" fill="none" stroke="#2c6496" stroke-width="1.5" stroke-opacity="0.18"/>
+  <circle cx="400" cy="200" r="130" fill="none" stroke="#2c6496" stroke-width="1.5" stroke-opacity="0.22"/>
+
+  <!-- Four community circles with strong fills -->
+  <circle cx="295" cy="150" r="105" fill="#2c6496" fill-opacity="0.13" stroke="#2c6496" stroke-width="1.8" stroke-opacity="0.35"/>
+  <circle cx="505" cy="150" r="105" fill="#2c6496" fill-opacity="0.13" stroke="#2c6496" stroke-width="1.8" stroke-opacity="0.35"/>
+  <circle cx="295" cy="265" r="105" fill="#2c6496" fill-opacity="0.13" stroke="#2c6496" stroke-width="1.8" stroke-opacity="0.35"/>
+  <circle cx="505" cy="265" r="105" fill="#2c6496" fill-opacity="0.13" stroke="#2c6496" stroke-width="1.8" stroke-opacity="0.35"/>
+
+  <!-- Shared norm zone – layered fills for depth -->
+  <ellipse cx="400" cy="207" rx="112" ry="92" fill="#2c6496" fill-opacity="0.18"/>
+  <ellipse cx="400" cy="207" rx="70"  ry="58" fill="#2c6496" fill-opacity="0.28"/>
+  <ellipse cx="400" cy="207" rx="38"  ry="32" fill="#2c6496" fill-opacity="0.55"/>
+
+  <!-- Central bright core -->
+  <circle cx="400" cy="207" r="20" fill="#ffffff" fill-opacity="0.92"/>
+  <circle cx="400" cy="207" r="10" fill="#2c6496"/>
+
+  <!-- People nodes at periphery of each community -->
+  <!-- Top-left community -->
+  <circle cx="225" cy="115" r="8" fill="#2c6496" fill-opacity="0.55"/>
+  <circle cx="260" cy="85"  r="6" fill="#2c6496" fill-opacity="0.4"/>
+  <circle cx="195" cy="155" r="6" fill="#2c6496" fill-opacity="0.4"/>
+  <!-- Top-right community -->
+  <circle cx="575" cy="115" r="8" fill="#2c6496" fill-opacity="0.55"/>
+  <circle cx="540" cy="85"  r="6" fill="#2c6496" fill-opacity="0.4"/>
+  <circle cx="605" cy="155" r="6" fill="#2c6496" fill-opacity="0.4"/>
+  <!-- Bottom-left community -->
+  <circle cx="225" cy="300" r="8" fill="#2c6496" fill-opacity="0.55"/>
+  <circle cx="195" cy="260" r="6" fill="#2c6496" fill-opacity="0.4"/>
+  <circle cx="255" cy="330" r="6" fill="#2c6496" fill-opacity="0.4"/>
+  <!-- Bottom-right community -->
+  <circle cx="575" cy="300" r="8" fill="#2c6496" fill-opacity="0.55"/>
+  <circle cx="605" cy="260" r="6" fill="#2c6496" fill-opacity="0.4"/>
+  <circle cx="545" cy="330" r="6" fill="#2c6496" fill-opacity="0.4"/>
+
+  <!-- Spokes from peripheral nodes to center -->
+  <g stroke="#2c6496" stroke-width="0.8" stroke-opacity="0.15">
+    <line x1="225" y1="115" x2="400" y2="207"/>
+    <line x1="575" y1="115" x2="400" y2="207"/>
+    <line x1="225" y1="300" x2="400" y2="207"/>
+    <line x1="575" y1="300" x2="400" y2="207"/>
+  </g>
+</svg>

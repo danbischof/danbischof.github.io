@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Overview of Stata graphic schemes by Daniel Bischof: plotplain, plottig, and 538 schemes.">
+  <title>Stata Graphic Schemes – Daniel Bischof</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="theme.js"></script>
+  <style>
+    .schemes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 2rem;
+      margin: 2rem 0;
+    }
+    .scheme-card {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+    .scheme-card img {
+      width: 100%;
+      border-radius: 4px;
+      border: 1px solid var(--border);
+    }
+    .scheme-card-name {
+      font-family: -apple-system, sans-serif;
+      font-size: 0.82rem;
+      color: var(--muted);
+      text-align: center;
+      font-style: italic;
+    }
+    .install-block {
+      background: var(--bg-raised);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 1rem 1.2rem;
+      margin: 1.6rem 0;
+      font-family: monospace;
+      font-size: 0.9rem;
+      line-height: 1.9;
+    }
+    .schemes-prose {
+      max-width: 680px;
+    }
+  </style>
+</head>
+<body>
+
+<nav id="site-nav">
+  <button class="nav-burger" onclick="toggleNav()" aria-label="Toggle menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <ul>
+    <li><a href="index.html">About</a></li>
+    <li><a href="bio.html">Bio</a></li>
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="working-papers.html">Working Papers</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="teaching.html">Teaching</a></li>
+    <li class="nav-toggle">
+      <button id="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17a5 5 0 1 1 0-10 5 5 0 0 1 0 10zm0-2a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM11 1h2v3h-2zm0 19h2v3h-2zM3.515 4.929l1.414-1.414L7.05 5.636 5.636 7.05 3.515 4.929zM16.95 18.364l1.414-1.414 2.121 2.121-1.414 1.414-2.121-2.121zM1 11h3v2H1zm19 0h3v2h-3zM4.929 20.485l-1.414-1.414 2.121-2.121 1.414 1.414-2.121 2.121zM18.364 7.05l-1.414-1.414 2.121-2.121 1.414 1.414-2.121 2.121z"/></svg>
+      </button>
+    </li>
+  </ul>
+</nav>
+
+<main>
+  <h1>Stata Graphic Schemes</h1>
+
+  <div class="schemes-prose">
+    <p>Throughout the years I have created several Stata figure schemes. This page gives a brief overview. For full documentation, see the <a href="assets/pdf/Bischof2018blindschemes_howto.pdf" target="_blank" rel="noopener">how-to PDF</a> or the <a href="https://www.stata-journal.com/article.html?article=gr0070" target="_blank" rel="noopener">Stata Journal article</a>.</p>
+  </div>
+
+  <div class="schemes-grid">
+    <div class="scheme-card">
+      <img src="assets/img/plotplain.png" alt="plotplain scheme example">
+      <div class="scheme-card-name">plotplain</div>
+    </div>
+    <div class="scheme-card">
+      <img src="assets/img/plottig.png" alt="plottig scheme example">
+      <div class="scheme-card-name">plottig</div>
+    </div>
+    <div class="scheme-card">
+      <img src="assets/img/538.jpg" alt="538 scheme example">
+      <div class="scheme-card-name">538</div>
+    </div>
+  </div>
+
+  <div class="schemes-prose">
+    <h2>Installation</h2>
+    <p>Install <code>plotplain</code> and <code>plottig</code> via <code>blindschemes</code>, and the 538 scheme via <code>g538schemes</code>:</p>
+
+    <div class="install-block">
+      ssc install blindschemes, replace all<br>
+      ssc install g538schemes, replace all
+    </div>
+
+    <p>Set a scheme as your permanent default:</p>
+
+    <div class="install-block">
+      set scheme plottig, permanently
+    </div>
+
+    <p>For a broader overview of user-written Stata schemes, see this <a href="https://github.com/asjadnaqvi/Stata-schemes" target="_blank" rel="noopener">GitHub repository</a> and this <a href="https://medium.com/the-stata-guide/stata-schemes-5ef99d099585" target="_blank" rel="noopener">Stata Guide post</a>.</p>
+  </div>
+</main>
+
+<footer>
+  © Daniel Bischof &nbsp;·&nbsp; <a href="mailto:db@danbischof.com">db@danbischof.com</a> &nbsp;·&nbsp; Built with <a href="https://claude.ai" target="_blank" rel="noopener">Claude</a>
+</footer>
+
+</body>
+</html>

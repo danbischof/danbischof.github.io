@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Research on the causes and consequences of extreme party emergence, hate crimes, and voter polarization. Project by Daniel Bischof.">
+  <title>Extremism – Daniel Bischof</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="theme.js"></script>
+</head>
+<body>
+
+<nav id="site-nav">
+  <button class="nav-burger" onclick="toggleNav()" aria-label="Toggle menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+  <ul>
+    <li><a href="index.html">About</a></li>
+    <li><a href="bio.html">Bio</a></li>
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="working-papers.html">Working Papers</a></li>
+    <li><a href="projects.html" class="active">Projects</a></li>
+    <li><a href="teaching.html">Teaching</a></li>
+    <li class="nav-toggle">
+      <button id="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 17a5 5 0 1 1 0-10 5 5 0 0 1 0 10zm0-2a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM11 1h2v3h-2zm0 19h2v3h-2zM3.515 4.929l1.414-1.414L7.05 5.636 5.636 7.05 3.515 4.929zM16.95 18.364l1.414-1.414 2.121 2.121-1.414 1.414-2.121-2.121zM1 11h3v2H1zm19 0h3v2h-3zM4.929 20.485l-1.414-1.414 2.121-2.121 1.414 1.414-2.121 2.121zM18.364 7.05l-1.414-1.414 2.121-2.121 1.414 1.414-2.121 2.121z"/></svg>
+      </button>
+    </li>
+  </ul>
+</nav>
+
+<main>
+  <a class="project-back" href="projects.html">← All Projects</a>
+
+  <img class="project-hero" src="assets/img/extremism.jpg" alt="Extremism">
+
+  <h1>Extremism <span class="project-status" style="font-size:0.75rem;vertical-align:middle;position:relative;top:-2px;">Ongoing</span></h1>
+  <p style="font-family:-apple-system,sans-serif;font-size:0.87rem;color:var(--muted);margin-bottom:1.5rem;">When social norms shift, extreme values surface — from hate crimes to radical-right voting and voter polarization</p>
+
+  <div class="project-body">
+    <p>A central insight from my work on radical-right party entry — published in the <em>American Journal of Political Science</em> — is that when extreme actors gain political legitimacy, the social norms governing the expression of extreme views shift. Values that were previously held in check can suddenly be revealed and acted upon: voters polarize, bystanders radicalize, and latent resentments find political expression. This project takes that mechanism as its intellectual starting point.</p>
+
+    <p>The cases studied here each test the same underlying logic from different angles: a local crime event shifts perceptions of out-group threat; a radical party's entry into parliament normalizes previously stigmatized views; spatial concentrations of cultural resentment find political voice when an electoral vehicle appears. Across these settings, the common thread is norm change unlocking extreme behavior — and the downstream consequences for democratic societies.</p>
+
+    <h3>Approach</h3>
+    <ul>
+      <li><strong>Temporal RDD:</strong> Regression-discontinuity-in-time design matching geocoded immigrant-attributed crime events to subsequent hate crimes against refugees.</li>
+      <li><strong>Spatial analysis:</strong> Dialectal-distance measures linked to county-level radical-right voting across Germany during the 2017 federal election.</li>
+      <li><strong>Grassroots mobilization:</strong> Web scraping of over 200,000 geo-coded M5S local branch activities in Italy (2005–2018) to estimate hyperlocal campaign effects on the 2016 referendum.</li>
+      <li><strong>Longitudinal &amp; cross-national models:</strong> Panel surveys and Eurobarometer time-series analyses assessing short- and long-term voter polarization following first-time radical-party entry into parliament.</li>
+    </ul>
+
+    <h3>Key Findings</h3>
+    <ol>
+      <li><strong>Vicarious retribution:</strong> Local crime events attributed to immigrants trigger a 65% increase in xenophobic hate crimes against refugees in the immediate aftermath.</li>
+      <li><strong>Peripheral voting:</strong> Regions with greater historical dialectal distance to standard German see significantly higher radical-right support, especially during periods of large refugee inflows.</li>
+      <li><strong>Place-based impact:</strong> Decentralized, grassroots mobilization by M5S produced substantial, hyperlocal boosts in referendum opposition.</li>
+      <li><strong>Polarization cascade:</strong> First-time entrance of radical parties into parliament leads to immediate legitimization-and-backlash effects and enduring ideological polarization among voters.</li>
+    </ol>
+
+    <h3>Publications</h3>
+    <ul>
+      <li><a href="https://www.journals.uchicago.edu/doi/10.1086/726948" target="_blank" rel="noopener">Riaz, S., Bischof, D., &amp; Wagner, M. (2024). "Out-Group Threat and Xenophobic Hate Crimes." <em>The Journal of Politics.</em></a></li>
+      <li><a href="https://www.cambridge.org/core/journals/american-political-science-review/article/abs/wealth-of-tongues-why-peripheral-regions-vote-for-the-radical-right-in-germany/62F03CD9CE943FBFD077F8CE79AFE999" target="_blank" rel="noopener">Ziblatt, D., Hilbig, H., &amp; Bischof, D. (2023). "Wealth of Tongues." <em>American Political Science Review.</em></a></li>
+      <li><a href="https://www.journals.uchicago.edu/doi/10.1086/723985" target="_blank" rel="noopener">Bischof, D., &amp; Kurer, T. (2023). "Place-Based Campaigning." <em>The Journal of Politics.</em></a></li>
+      <li><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ajps.12449" target="_blank" rel="noopener">Bischof, D., &amp; Wagner, M. (2019). "Do Voters Polarize When Radical Parties Enter Parliament?" <em>American Journal of Political Science.</em></a></li>
+    </ul>
+
+    <h3>Working Papers</h3>
+    <ul>
+      <li><a href="https://priceschool.usc.edu/wp-content/uploads/2024/09/Thomson.pdf" target="_blank" rel="noopener">Haass, F., De Juan, A., Bischof, D., &amp; Thomson, H. (2024). "Parliamentary Representation and Right-Wing Violence: Evidence from Nazi Street Brawls in the Weimar Republic."</a></li>
+      <li><a href="https://osf.io/usqdb" target="_blank" rel="noopener">Bischof, D., &amp; Valentim, V. (2022). "The Consequences of Punishing Political Ideologies in Democracies – Evidence from Employment Bans in Germany."</a></li>
+      <li>Bischof, D. "Does Exposure to Radical Right Rallies Affect Political Behavior and Preferences? Evidence from the Far Right PEGIDA Movement in Germany." (available upon request)</li>
+    </ul>
+
+    <h3>Funding</h3>
+    <ul>
+      <li>SNSF Ambizione Grant "Extreme Entrance" (Grant No. 179938): €700,000 (2019–2023)</li>
+    </ul>
+  </div>
+</main>
+
+<footer>
+  © Daniel Bischof &nbsp;·&nbsp; <a href="mailto:db@danbischof.com">db@danbischof.com</a> &nbsp;·&nbsp; Built with <a href="https://claude.ai" target="_blank" rel="noopener">Claude</a>
+</footer>
+
+</body>
+</html>

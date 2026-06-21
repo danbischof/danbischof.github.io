@@ -1,0 +1,71 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#f8f8f6"/>
+  <!-- abstract crowd silhouettes - rows of simplified people -->
+  <!-- back row, small and muted -->
+  <g opacity="0.18" fill="#1a1a1a">
+    <ellipse cx="60"  cy="300" rx="14" ry="32"/>
+    <ellipse cx="100" cy="295" rx="14" ry="32"/>
+    <ellipse cx="140" cy="302" rx="14" ry="32"/>
+    <ellipse cx="180" cy="298" rx="14" ry="32"/>
+    <ellipse cx="220" cy="301" rx="14" ry="32"/>
+    <ellipse cx="260" cy="296" rx="14" ry="32"/>
+    <ellipse cx="300" cy="300" rx="14" ry="32"/>
+    <ellipse cx="340" cy="297" rx="14" ry="32"/>
+    <ellipse cx="380" cy="303" rx="14" ry="32"/>
+    <ellipse cx="420" cy="298" rx="14" ry="32"/>
+    <ellipse cx="460" cy="301" rx="14" ry="32"/>
+    <ellipse cx="500" cy="295" rx="14" ry="32"/>
+    <ellipse cx="540" cy="300" rx="14" ry="32"/>
+    <ellipse cx="580" cy="297" rx="14" ry="32"/>
+    <ellipse cx="620" cy="303" rx="14" ry="32"/>
+    <ellipse cx="660" cy="298" rx="14" ry="32"/>
+    <ellipse cx="700" cy="301" rx="14" ry="32"/>
+    <ellipse cx="740" cy="296" rx="14" ry="32"/>
+  </g>
+  <!-- mid row -->
+  <g opacity="0.35" fill="#2c3e50">
+    <ellipse cx="40"  cy="330" rx="16" ry="38"/>
+    <ellipse cx="88"  cy="326" rx="16" ry="38"/>
+    <ellipse cx="136" cy="333" rx="16" ry="38"/>
+    <ellipse cx="184" cy="328" rx="16" ry="38"/>
+    <ellipse cx="232" cy="332" rx="16" ry="38"/>
+    <ellipse cx="280" cy="327" rx="16" ry="38"/>
+    <ellipse cx="328" cy="330" rx="16" ry="38"/>
+    <ellipse cx="376" cy="326" rx="16" ry="38"/>
+    <ellipse cx="424" cy="333" rx="16" ry="38"/>
+    <ellipse cx="472" cy="328" rx="16" ry="38"/>
+    <ellipse cx="520" cy="331" rx="16" ry="38"/>
+    <ellipse cx="568" cy="326" rx="16" ry="38"/>
+    <ellipse cx="616" cy="330" rx="16" ry="38"/>
+    <ellipse cx="664" cy="328" rx="16" ry="38"/>
+    <ellipse cx="712" cy="333" rx="16" ry="38"/>
+    <ellipse cx="760" cy="327" rx="16" ry="38"/>
+  </g>
+  <!-- front row, darker -->
+  <g opacity="0.65" fill="#2c6496">
+    <ellipse cx="20"  cy="370" rx="18" ry="45"/>
+    <ellipse cx="68"  cy="364" rx="18" ry="45"/>
+    <ellipse cx="116" cy="372" rx="18" ry="45"/>
+    <ellipse cx="164" cy="366" rx="18" ry="45"/>
+    <ellipse cx="212" cy="370" rx="18" ry="45"/>
+    <ellipse cx="260" cy="365" rx="18" ry="45"/>
+    <ellipse cx="308" cy="371" rx="18" ry="45"/>
+    <ellipse cx="356" cy="364" rx="18" ry="45"/>
+    <ellipse cx="404" cy="372" rx="18" ry="45"/>
+    <ellipse cx="452" cy="366" rx="18" ry="45"/>
+    <ellipse cx="500" cy="370" rx="18" ry="45"/>
+    <ellipse cx="548" cy="364" rx="18" ry="45"/>
+    <ellipse cx="596" cy="371" rx="18" ry="45"/>
+    <ellipse cx="644" cy="366" rx="18" ry="45"/>
+    <ellipse cx="692" cy="370" rx="18" ry="45"/>
+    <ellipse cx="740" cy="364" rx="18" ry="45"/>
+    <ellipse cx="788" cy="371" rx="18" ry="45"/>
+  </g>
+  <!-- upraised arms / signs (a few accents) -->
+  <rect x="155" y="220" width="4" height="80" fill="#2c6496" opacity="0.55" rx="2"/>
+  <rect x="153" y="210" width="30" height="20" fill="#2c6496" opacity="0.45" rx="2"/>
+  <rect x="355" y="215" width="4" height="85" fill="#c0392b" opacity="0.5" rx="2"/>
+  <rect x="353" y="205" width="30" height="20" fill="#c0392b" opacity="0.4" rx="2"/>
+  <rect x="595" y="218" width="4" height="80" fill="#2c6496" opacity="0.5" rx="2"/>
+  <rect x="593" y="208" width="30" height="20" fill="#2c6496" opacity="0.4" rx="2"/>
+</svg>
