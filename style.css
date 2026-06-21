@@ -485,32 +485,18 @@ a:hover { text-decoration: underline; color: var(--accent-h); }
 /* ── CV embed ── */
 .cv-embed {
   margin-top: 2.5rem;
-  border: 1px solid var(--border);
-  border-radius: 6px;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
   overflow: hidden;
 }
 
-.cv-embed-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.6rem 1rem;
-  background: var(--bg-alt);
-  border-bottom: 1px solid var(--border);
-  font-size: 0.85rem;
-  color: var(--muted);
-}
-
-.cv-embed-header a {
-  color: var(--accent);
-  text-decoration: none;
-  font-size: 0.82rem;
-}
 
 .cv-embed iframe {
   display: block;
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   border: none;
 }
 
