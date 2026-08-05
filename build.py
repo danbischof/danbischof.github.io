@@ -52,6 +52,7 @@ PUB_TOPICS = {
     'bischof2024sd':              ['farright', 'parties', 'publicopinion'], # where did Social Dem. voters go?
 
     # ── Democracy ────────────────────────────────────────────────────────────
+    'bischof2026rollcall':        ['protest', 'parties'],                    # protest → MP roll-call votes
     'Juratic2026':                ['democracy', 'protest', 'publicopinion'], # unequal tolerance for protest
     'bischof2015repression':      ['democracy'],                             # repression, monarchs, revolution (Arab world)
 
@@ -195,11 +196,13 @@ def fmt_authors(author_str):
 def h(s): return html_mod.escape(str(s))
 
 # ── Classification ─────────────────────────────────────────────────────────────
+CHAPTER_ABBRS = {'cup', 'routledge', 'springer', 'oxford', 'palgrave', 'book chapter'}
+
 def classify_pub(e):
     j = e.get('journal','').lower()
     a = e.get('abbr','').lower()
     if a == 'software': return 'software'
-    if a == 'cup': return 'chapter'
+    if a in CHAPTER_ABBRS: return 'chapter'
     if 'forthcoming' in j or 'conditional accept' in j: return 'forthcoming'
     return 'published'
 
@@ -228,8 +231,6 @@ def pub_item(e, show_journal=True, under_review=False, journal_label='Journal'):
             badge = ' <span class="badge badge-forthcoming">Conditional Accept</span>'
         elif 'forthcoming' in raw_j.lower():
             badge = ' <span class="badge badge-forthcoming">Forthcoming</span>'
-        elif abbr == 'CUP':
-            badge = ' <span class="badge badge-chapter">Book Chapter</span>'
         jdisplay = f'      <div class="pub-venue"><em>{h(jname)}</em>{badge}</div>\n'
     elif under_review:
         jdisplay = '      <div class="pub-venue"><span class="badge badge-review">Under Review</span></div>\n'
@@ -245,7 +246,8 @@ def pub_item(e, show_journal=True, under_review=False, journal_label='Journal'):
     if pdf:
         links.append(f'<a href="assets/pdf/{h(pdf)}" target="_blank" rel="noopener">PDF</a>')
     if jurl:
-        links.append(f'<a href="{h(jurl)}" target="_blank" rel="noopener">{h(journal_label)}</a>')
+        link_label = 'Book' if abbr.lower() in CHAPTER_ABBRS else journal_label
+        links.append(f'<a href="{h(jurl)}" target="_blank" rel="noopener">{h(link_label)}</a>')
     if key in GALLERY_KEYS:
         links.append('<a href="stata-schemes.html" target="_blank" rel="noopener" class="gallery-link">Gallery</a>')
 
@@ -305,9 +307,9 @@ def build_pub(entries):
     pub = [e for e in entries if classify_pub(e)=='published']
     ch  = [e for e in entries if classify_pub(e)=='chapter']
     sw  = [e for e in entries if classify_pub(e)=='software']
-    for lst in [fc, pub]: lst.sort(key=lambda e:int(e.get('year','0') or 0), reverse=True)
+    for lst in [fc, pub, ch]: lst.sort(key=lambda e:int(e.get('year','0') or 0), reverse=True)
 
-    numbered_total = len(fc) + len(pub)  # chapters/software not in main count
+    numbered_total = len(fc) + len(pub) + len(ch)
 
     def sec(title, lst, jn=True, misc=False, first=False, reset=0):
         items = '\n\n'.join(pub_item(e, show_journal=jn) for e in lst)
@@ -319,7 +321,7 @@ def build_pub(entries):
         sec('Forthcoming', fc, first=True, reset=numbered_total+1),
         sec('Peer-Reviewed Articles', pub),
     ]
-    if ch:  parts.append(sec('Book Chapters', ch, misc=True))
+    if ch:  parts.append(sec('Book Chapters', ch))
     if sw:  parts.append(sec('Software', sw, jn=False, misc=True))
     content = '\n\n'.join(parts)
 
@@ -368,9 +370,27 @@ def build_pub(entries):
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Peer-reviewed publications by Daniel Bischof, including articles in the American Political Science Review, AJPS, BJPS, and Journal of Politics.">
-  <title>Publications – Daniel Bischof, Professor of Comparative Politics</title>
+  <title>Publications – Daniel Bischof, Political Scientist</title>
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.danbischof.com/publications.html">
+  <meta property="og:title" content="Publications – Daniel Bischof">
+  <meta property="og:description" content="Peer-reviewed publications by Daniel Bischof, including articles in the American Political Science Review, AJPS, BJPS, and Journal of Politics.">
+  <meta property="og:image" content="https://www.danbischof.com/prof_pic.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Publications – Daniel Bischof">
+  <meta name="twitter:description" content="Peer-reviewed publications by Daniel Bischof, including articles in the American Political Science Review, AJPS, BJPS, and Journal of Politics.">
+  <meta name="twitter:image" content="https://www.danbischof.com/prof_pic.jpg">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>">
   <link rel="stylesheet" href="style.css">
   <script src="theme.js"></script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MCGRQHKP21"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){{dataLayer.push(arguments);}}
+    gtag('js', new Date());
+    gtag('config', 'G-MCGRQHKP21');
+  </script>
 </head>
 <body>
 
@@ -444,9 +464,27 @@ def build_wp(entries):
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Working papers by Daniel Bischof on democratic defense, extremism, political behavior, and comparative politics. Preprints and papers available upon request.">
-  <title>Working Papers – Daniel Bischof, Professor of Comparative Politics</title>
+  <title>Working Papers – Daniel Bischof, Political Scientist</title>
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.danbischof.com/working-papers.html">
+  <meta property="og:title" content="Working Papers – Daniel Bischof">
+  <meta property="og:description" content="Working papers and preprints by Daniel Bischof on democratic norms, extremism, political behavior, and comparative politics.">
+  <meta property="og:image" content="https://www.danbischof.com/prof_pic.jpg">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Working Papers – Daniel Bischof">
+  <meta name="twitter:description" content="Working papers and preprints by Daniel Bischof on democratic norms, extremism, political behavior, and comparative politics.">
+  <meta name="twitter:image" content="https://www.danbischof.com/prof_pic.jpg">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>">
   <link rel="stylesheet" href="style.css">
   <script src="theme.js"></script>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MCGRQHKP21"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){{dataLayer.push(arguments);}}
+    gtag('js', new Date());
+    gtag('config', 'G-MCGRQHKP21');
+  </script>
 </head>
 <body>
 

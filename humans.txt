@@ -1,0 +1,13 @@
+/* TEAM */
+Name: Daniel Bischof
+Role: Author
+Email: db@danbischof.com
+Location: Münster, Germany
+
+/* THANKS */
+Built with Claude (claude.ai)
+
+/* SITE */
+Last update: 2026-08-05
+Language: English
+Doctype: HTML5
