@@ -11,7 +11,6 @@ OUT_WP  = os.path.join(HERE, 'working-papers.html')
 # ── Working-paper overrides ───────────────────────────────────────────────────
 # Explicit order within the "Available Upon Request" group (unlisted → appended by year)
 WP_REQUEST_ORDER = [
-    'bischof2026demcit',
     'albers2026income',
     'bischof2023weimarriot',
     'bischof2026localleaders',
@@ -28,12 +27,12 @@ WP_UNDER_REVIEW = {
 
 # Title overrides (key → new title string)
 WP_RENAME = {
-    'bischof2026demcit': 'What Citizens Mean by Democracy: Evidence from Open- and Closed-Ended Survey Responses',
+    'bischof2026demcit': 'What Citizens Mean by Democracy: Partisan Differences in Open-Ended Survey Responses',
 }
 
 # Abstract overrides (key → abstract string)
 WP_ABSTRACT = {
-    'bischof2026demcit': 'Why do citizens report high support for democracy in standard survey questions even as democratic backsliding advances in many countries? We address this puzzle by comparing two ways of measuring democratic orientations: an open-ended question asking respondents to define democracy in their own words and closed-ended items asking whether they endorse specific democratic principles. Drawing on more than 25,000 survey responses from representative samples in 14 countries, we use a fine-tuned language model to classify open-ended answers into substantive dimensions. First, across countries, citizens most often define democracy in terms of individual and civil rights, while multidimensional conceptions are rare. Second, open- and closed-ended measures diverge systematically. Center-right voters invoke liberal-democratic language at rates similar to the center-left, yet they are less supportive of minority rights and electoral norms when prompted. Far-right voters stand out more clearly in open-ended responses, where majoritarian conceptions are more prevalent than among other electorates.',
+    'bischof2026demcit': 'Do voters from different partisan camps understand democracy in the same way? We analyze more than 25,000 open-ended survey responses from representative samples in 14 countries, classifying answers with a fine-tuned language model and sentence embeddings. Citizens most often define democracy through individual and civil rights; multidimensional definitions are rare, and elections are mentioned by only 17% of respondents. Yet shared vocabulary masks partisan divergence. Far-right voters and non-voters are less likely to mention civil rights, elections, and horizontal accountability, while far-right voters more often invoke majoritarian principles. Among respondents mentioning rights, left voters connect rights to equality and citizenship, whereas right voters emphasize freedom of speech. Democratic contestation thus unfolds within democratic language, creating openings for selective elite reframing.',
 }
 
 
