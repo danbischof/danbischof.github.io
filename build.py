@@ -289,7 +289,7 @@ def nav(active=''):
   </ul>
 </nav>'''
 
-FOOTER = '  © Daniel Bischof &nbsp;·&nbsp; <a href="mailto:db@danbischof.com">db@danbischof.com</a> &nbsp;·&nbsp; Built with <a href="https://claude.ai" target="_blank" rel="noopener">Claude</a>'
+FOOTER = '  © Daniel Bischof &nbsp;·&nbsp; <a href="mailto:db@danbischof.com">db@danbischof.com</a> &nbsp;·&nbsp; Built with <a href="https://claude.ai" target="_blank" rel="noopener">Claude</a> &nbsp;·&nbsp; Last update: August 2026'
 
 SCRIPT = '''<script>
   document.querySelectorAll('.pub-links details').forEach(function(det){
