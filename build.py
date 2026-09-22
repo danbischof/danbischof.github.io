@@ -12,7 +12,6 @@ OUT_WP  = os.path.join(HERE, 'working-papers.html')
 # Explicit order within the "Available Upon Request" group (unlisted → appended by year)
 WP_REQUEST_ORDER = [
     'albers2026income',
-    'bischof2023weimarriot',
     'bischof2026localleaders',
     'bischof2021protest',
 ]
