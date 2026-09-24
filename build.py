@@ -43,8 +43,7 @@ PROJECT_PAPERS = {
     'project-extremism.html': ['riaz2024', 'ziblatt2023', 'bischof2023place', 'bischof2019voters',
                                'bischof2024sd', 'bischof2023weimarriot', 'bischof2026bans',
                                'bischof2021protest'],
-    'project-norms.html':     ['bischof2026sdb', 'Juratic2026', 'bischof2024mapping', 'misperceiving2023',
-                               'Frederiksen2025', 'bischof2026localleaders', 'bischof2026demcit'],
+    'project-norms.html':     ['bischof2026sdb', 'Juratic2026', 'bischof2024mapping',  'Frederiksen2025', 'bischof2026localleaders', 'bischof2026demcit'],
     'project-protest.html':   ['bernardi2021public', 'Juratic2026', 'haas2025', 'bischof2021protest'],
     'project-messaging.html': ['bischof2026complexity', 'bischof2026brexit', 'bischof2021advantages',
                                'bischof2018simple'],
@@ -53,10 +52,7 @@ PROJECT_PAPERS = {
 }
 
 # Papers shown on project pages only (not on the Working Papers page)
-PROJECT_EXTRA = {
-    'misperceiving2023': {'title': '(Mis-)Perceiving Support for Democracy', 'author': 'Daniel Bischof and others',
-                          'year': '2023', 'html': 'https://osf.io/dpq7w'},
-}
+PROJECT_EXTRA = {}
 
 # ── Publication topic tags ────────────────────────────────────────────────────
 # Each key maps to a list of topic slugs. Adjust as needed.
@@ -289,8 +285,8 @@ def pub_item(e, show_journal=True, under_review=False, journal_label='Journal'):
 
 # ── Shared HTML ────────────────────────────────────────────────────────────────
 def nav(active=''):
-    pc = ' class="active"' if active=='pub' else ''
-    wc = ' class="active"' if active=='wp'  else ''
+    pc = ' class="active" aria-current="page"' if active=='pub' else ''
+    wc = ' class="active" aria-current="page"' if active=='wp'  else ''
     return f'''<nav id="site-nav">
   <button class="nav-burger" onclick="toggleNav()" aria-label="Toggle menu">
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -406,6 +402,9 @@ def build_pub(entries):
   <meta name="twitter:description" content="Peer-reviewed publications by Daniel Bischof, including articles in the American Political Science Review, AJPS, BJPS, and Journal of Politics.">
   <meta name="twitter:image" content="https://www.danbischof.com/assets/img/og-card.jpg">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
   <link rel="stylesheet" href="style.css">
   <script src="theme.js"></script>
   <!-- Google Analytics -->

@@ -3,7 +3,7 @@
    Pure CSS, no frameworks, no build step required.
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap');
+/* Source Serif 4 is loaded via <link> in each page's <head> (faster than @import). */
 
 :root {
   --accent:    #2c6496;
@@ -81,7 +81,8 @@ nav ul li a {
 nav ul li a:hover { color: var(--accent); }
 nav ul li a.active {
   color: var(--accent);
-  box-shadow: inset 0 -2px 0 var(--accent);
+  font-weight: 600;
+  box-shadow: inset 0 -3px 0 var(--accent);
 }
 
 /* ── Page wrapper ── */
@@ -93,10 +94,25 @@ main {
 
 /* ── Headings ── */
 h1 {
-  font-size: 1.6rem;
+  font-size: 1.75rem;
   font-weight: normal;
+  line-height: 1.25;
   letter-spacing: -0.01em;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+h1 .project-status {
+  font-size: 0.72rem;
+  vertical-align: middle;
+  position: relative;
+  top: -3px;
+  margin-left: 0.4rem;
+}
+.page-subtitle {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.87rem;
+  color: var(--muted);
+  line-height: 1.5;
+  margin-bottom: 1.8rem;
 }
 h2 {
   font-size: 1rem;
@@ -107,11 +123,12 @@ h2 {
   color: var(--muted);
   border-bottom: 1px solid var(--border);
   padding-bottom: 0.4rem;
-  margin: 2.5rem 0 1.2rem;
+  margin: 2.8rem 0 1.2rem;
 }
+h1 + h2, .page-intro + h2, .filter-bar + h2 { margin-top: 1.8rem; }
 h3 {
   font-size: 1rem;
-  margin: 1.4rem 0 0.4rem;
+  margin: 1.6rem 0 0.5rem;
 }
 
 /* ── Links ── */
@@ -412,10 +429,11 @@ a:hover { text-decoration: underline; color: var(--accent-h); }
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--muted);
-  margin: 1.4rem 0 0.5rem;
+  margin: 2.2rem 0 0.8rem;
   border-bottom: 1px solid var(--border);
-  padding-bottom: 0.3rem;
+  padding-bottom: 0.35rem;
 }
+.project-body > h3:first-child { margin-top: 0; }
 
 /* ── Misc pub list (chapters/software – no counter) ── */
 .pub-list-misc > li {
@@ -501,8 +519,16 @@ a:hover { text-decoration: underline; color: var(--accent-h); }
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 0.87rem;
   color: #666;
-  margin-top: 0.3rem;
-  margin-bottom: 1rem;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+.about-address {
+  margin-top: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.82rem;
+  color: #aaa;
+  line-height: 1.7;
 }
 
 /* ── Bio page prose ── */
@@ -637,6 +663,7 @@ footer {
 .nav-burger {
   display: none;
 }
+.nav-current { display: none; }
 
 @media (max-width: 640px) {
   /* Show hamburger, hide nav links by default */
@@ -644,6 +671,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    gap: 0.6rem;
     width: 100%;
     padding: 0.7rem 1rem;
     background: none;
@@ -673,6 +701,30 @@ footer {
     padding: 0.7rem 1.2rem;
     border-bottom: 1px solid var(--border);
   }
+
+
+  /* Current page name next to the menu button */
+  .nav-current {
+    margin-right: auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+  }
+  nav ul li a.active {
+    box-shadow: inset 3px 0 0 var(--accent);
+    background: var(--bg-raised);
+  }
+
+  /* Readability on small screens: no justified text (avoids big word gaps) */
+  main { padding: 2rem 1.2rem 3.5rem; }
+  h1 { font-size: 1.55rem; }
+  .about-first p, .about-rest p, .project-body p, .bio-prose p, .abstract-text {
+    text-align: left;
+  }
+  h2 { margin-top: 2.2rem; }
 
   /* Content layout */
   .about-grid { grid-template-columns: 1fr; }

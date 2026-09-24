@@ -24,3 +24,15 @@ document.addEventListener('click', function(e) {
     nav.classList.remove('open');
   }
 });
+
+/* On phones, show the current page name next to the menu button */
+document.addEventListener('DOMContentLoaded', function () {
+  var active = document.querySelector('#site-nav a.active');
+  var burger = document.querySelector('#site-nav .nav-burger');
+  if (active && burger && !burger.querySelector('.nav-current')) {
+    var label = document.createElement('span');
+    label.className = 'nav-current';
+    label.textContent = active.textContent;
+    burger.insertBefore(label, burger.firstChild);
+  }
+});
