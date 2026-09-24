@@ -35,6 +35,29 @@ WP_ABSTRACT = {
 }
 
 
+# ── Project pages: which papers appear on which project page ──────────────────
+# Keys refer to publications.bib, papers.bib, or PROJECT_EXTRA below.
+# Order within each list does not matter (sorted automatically: forthcoming,
+# then by year). To add a paper to a project page, add its key here.
+PROJECT_PAPERS = {
+    'project-extremism.html': ['riaz2024', 'ziblatt2023', 'bischof2023place', 'bischof2019voters',
+                               'bischof2024sd', 'bischof2023weimarriot', 'bischof2026bans',
+                               'bischof2021protest'],
+    'project-norms.html':     ['bischof2026sdb', 'Juratic2026', 'bischof2024mapping', 'misperceiving2023',
+                               'Frederiksen2025', 'bischof2026localleaders', 'bischof2026demcit'],
+    'project-protest.html':   ['bernardi2021public', 'Juratic2026', 'haas2025', 'bischof2021protest'],
+    'project-messaging.html': ['bischof2026complexity', 'bischof2026brexit', 'bischof2021advantages',
+                               'bischof2018simple'],
+    'project-diffusion.html': ['senninger2021transnational', 'senninger2021voters', 'wolkenstein2020party',
+                               'senninger2018working'],
+}
+
+# Papers shown on project pages only (not on the Working Papers page)
+PROJECT_EXTRA = {
+    'misperceiving2023': {'title': '(Mis-)Perceiving Support for Democracy', 'author': 'Daniel Bischof and others',
+                          'year': '2023', 'html': 'https://osf.io/dpq7w'},
+}
+
 # ── Publication topic tags ────────────────────────────────────────────────────
 # Each key maps to a list of topic slugs. Adjust as needed.
 # Available slugs: key · farright · democracy · messaging · parties · methods
@@ -288,7 +311,7 @@ def nav(active=''):
   </ul>
 </nav>'''
 
-FOOTER = '  © Daniel Bischof &nbsp;·&nbsp; <a href="mailto:db@danbischof.com">db@danbischof.com</a> &nbsp;·&nbsp; Built with <a href="https://claude.ai" target="_blank" rel="noopener">Claude</a> &nbsp;·&nbsp; Last update: August 2026'
+FOOTER = '  © Daniel Bischof &nbsp;·&nbsp; <a href="mailto:db@danbischof.com">db@danbischof.com</a> &nbsp;·&nbsp; Built with <a href="https://claude.ai" target="_blank" rel="noopener">Claude</a> &nbsp;·&nbsp; Last update: September 2026'
 
 SCRIPT = '''<script>
   document.querySelectorAll('.pub-links details').forEach(function(det){
@@ -371,13 +394,17 @@ def build_pub(entries):
   <title>Publications – Daniel Bischof, Political Scientist</title>
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.danbischof.com/publications.html">
+  <link rel="canonical" href="https://www.danbischof.com/publications.html">
   <meta property="og:title" content="Publications – Daniel Bischof">
   <meta property="og:description" content="Peer-reviewed publications by Daniel Bischof, including articles in the American Political Science Review, AJPS, BJPS, and Journal of Politics.">
-  <meta property="og:image" content="https://www.danbischof.com/prof_pic.jpg">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://www.danbischof.com/assets/img/og-card.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Daniel Bischof – Professor and Chair of Comparative Politics, University of Münster and Aarhus University">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Publications – Daniel Bischof">
   <meta name="twitter:description" content="Peer-reviewed publications by Daniel Bischof, including articles in the American Political Science Review, AJPS, BJPS, and Journal of Politics.">
-  <meta name="twitter:image" content="https://www.danbischof.com/prof_pic.jpg">
+  <meta name="twitter:image" content="https://www.danbischof.com/assets/img/og-card.jpg">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>">
   <link rel="stylesheet" href="style.css">
   <script src="theme.js"></script>
@@ -465,13 +492,17 @@ def build_wp(entries):
   <title>Working Papers – Daniel Bischof, Political Scientist</title>
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.danbischof.com/working-papers.html">
+  <link rel="canonical" href="https://www.danbischof.com/working-papers.html">
   <meta property="og:title" content="Working Papers – Daniel Bischof">
   <meta property="og:description" content="Working papers and preprints by Daniel Bischof on democratic norms, extremism, political behavior, and comparative politics.">
-  <meta property="og:image" content="https://www.danbischof.com/prof_pic.jpg">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://www.danbischof.com/assets/img/og-card.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Daniel Bischof – Professor and Chair of Comparative Politics, University of Münster and Aarhus University">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Working Papers – Daniel Bischof">
   <meta name="twitter:description" content="Working papers and preprints by Daniel Bischof on democratic norms, extremism, political behavior, and comparative politics.">
-  <meta name="twitter:image" content="https://www.danbischof.com/prof_pic.jpg">
+  <meta name="twitter:image" content="https://www.danbischof.com/assets/img/og-card.jpg">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏛️</text></svg>">
   <link rel="stylesheet" href="style.css">
   <script src="theme.js"></script>
@@ -503,6 +534,124 @@ def build_wp(entries):
 </body>
 </html>'''
 
+# ── Project pages ──────────────────────────────────────────────────────────────
+def coauthors_short(author_str):
+    if not author_str: return ''
+    parts = [fmt_name(p) for p in re.split(r'\s+and\s+', author_str)]
+    others = [p for p in parts if not re.match(r'(Daniel\s+)?Bischof$', p.strip(), re.I) and p.strip().lower()!='others']
+    has_more = any(p.strip().lower()=='others' for p in parts)
+    if not others: return 'With co-authors.' if has_more else ''
+    if len(others) > 3:
+        return f'With {others[0]}, {others[1]}, and {len(others)-2} others.'
+    if has_more: return 'With ' + ', '.join(others) + ', and others.'
+    if len(others) == 1: return f'With {others[0]}.'
+    return 'With ' + ', '.join(others[:-1]) + ' and ' + others[-1] + '.'
+
+def project_item(e, kind):
+    title = clean(WP_RENAME.get(e['_key'], e.get('title','')))
+    title = title.replace(' -- ', ' – ').replace('--', '–')
+    title = title if title.endswith(('?','!','.')) else title + '.'
+    raw_j = e.get('journal','')
+    jname = re.sub(r'\s*:\s*(forthcoming|conditional accept)', '', raw_j, flags=re.I).strip()
+    jname = re.sub(r'^In\s*:\s*', '', jname, flags=re.I).replace('\\&','&')
+    year  = e.get('year','')
+    if kind == 'pub':
+        status = 'conditionally accepted' if 'conditional accept' in raw_j.lower() else ('forthcoming' if 'forthcoming' in raw_j.lower() else year)
+        if e.get('abbr','').lower() in CHAPTER_ABBRS:
+            book = jname.split(':',1)[-1].strip().split('.')[0].strip()
+            venue = f' In <em>{h(book)}</em> ({status}).'
+        else:
+            venue = f' <em>{h(jname)}</em> ({status}).'
+    else:
+        if e['_key'] in WP_UNDER_REVIEW:            venue = f' Working paper ({year}), under review.'
+        elif 'available upon request' in raw_j.lower() or not e.get('html'): venue = ' Available upon request.'
+        else:                                        venue = f' Working paper ({year}).'
+    co = coauthors_short(e.get('author',''))
+    text = f'&#8220;{h(title)}&#8221;{venue}' + (f' {h(co)}' if co else '')
+    url = e.get('html','') or (f"assets/pdf/{e['pdf']}" if e.get('pdf') else '')
+    if url:
+        return f'      <li><a href="{h(url)}" target="_blank" rel="noopener">{text}</a></li>'
+    return f'      <li>{text}</li>'
+
+def build_project_sections(keys, pub_by_key, wp_by_key):
+    pubs, wps = [], []
+    for k in keys:
+        if k in pub_by_key: pubs.append(pub_by_key[k])
+        elif k in wp_by_key: wps.append(wp_by_key[k])
+        elif k in PROJECT_EXTRA: wps.append({'_key': k, **PROJECT_EXTRA[k]})
+        else: print(f'  WARNING: project paper key not found: {k}')
+    def pub_sort(e):
+        c = classify_pub(e)
+        return (0 if c=='forthcoming' else 1, -int(e.get('year','0') or 0))
+    def wp_sort(e):
+        return (0 if e.get('html') else 1, -int(e.get('year','0') or 0))
+    out = []
+    if pubs:
+        out.append('    <h3>Publications</h3>\n    <ul>\n' + '\n'.join(project_item(e,'pub') for e in sorted(pubs, key=pub_sort)) + '\n    </ul>')
+    if wps:
+        out.append('    <h3>Working Papers</h3>\n    <ul>\n' + '\n'.join(project_item(e,'wp') for e in sorted(wps, key=wp_sort)) + '\n    </ul>')
+    return '\n\n'.join(out)
+
+def update_project_pages(pub_entries, wp_entries):
+    pub_by_key = {e['_key']: e for e in pub_entries}
+    wp_by_key  = {e['_key']: e for e in wp_entries}
+    for fname, keys in PROJECT_PAPERS.items():
+        path = os.path.join(HERE, fname)
+        with open(path, encoding='utf-8') as f: page = f.read()
+        block = '    <!-- AUTO:papers (generated by build.py, edit PROJECT_PAPERS instead) -->\n' + \
+                build_project_sections(keys, pub_by_key, wp_by_key) + '\n    <!-- /AUTO:papers -->'
+        if '<!-- AUTO:papers' in page:
+            page = re.sub(r'    <!-- AUTO:papers.*?<!-- /AUTO:papers -->', lambda m: block, page, flags=re.S)
+        else:
+            m = re.search(r'    <h3>(Publications|Working Papers)</h3>.*?(?=\n    <h3>Funding</h3>|\n  </div>\n</main>)', page, flags=re.S)
+            if not m: print(f'  WARNING: no paper section found in {fname}'); continue
+            page = page[:m.start()] + block + '\n' + page[m.end():]
+        with open(path, 'w', encoding='utf-8') as f: f.write(page)
+    print(f'Project pages updated: {len(PROJECT_PAPERS)}')
+
+# ── Teaching page (from teaching.json) ─────────────────────────────────────────
+def course_item(c):
+    links = []
+    if c.get('description'): links.append('<details><summary>Description</summary></details>')
+    for s in c.get('syllabi', []):
+        links.append(f'<a href="assets/pdf/{h(s["file"])}" target="_blank" rel="noopener">{h(s["label"])}</a>')
+    tag = f' <span class="lang-tag">{h(c["lang"])}</span>' if c.get('lang') else ''
+    out = f'    <li>\n      <div class="pub-title">{h(c["title"])}</div>\n      <div class="course-meta">{h(c["meta"])}{tag}</div>\n'
+    if links: out += '      <div class="pub-links">\n        ' + '\n        '.join(links) + '\n      </div>\n'
+    if c.get('description'): out += f'      <div class="abstract-text" hidden>{c["description"]}</div>\n'
+    return out + '    </li>\n'
+
+def update_teaching():
+    import json
+    path = os.path.join(HERE, 'teaching.html')
+    data = json.load(open(os.path.join(HERE, 'teaching.json'), encoding='utf-8'))
+    parts = []
+    for sec in data['sections']:
+        parts.append(f'  <h2>{h(sec["heading"])}</h2>\n')
+        for g in sec['groups']:
+            if g.get('label'): parts.append(f'  <h3 class="term-heading">{h(g["label"])}</h3>\n')
+            parts.append('  <ul class="course-list">\n' + ''.join(course_item(c) for c in g['courses']) + '  </ul>\n')
+    block = '  <!-- AUTO:courses (generated by build.py from teaching.json) -->\n' + '\n'.join(parts) + '  <!-- /AUTO:courses -->\n'
+    page = open(path, encoding='utf-8').read()
+    if '<!-- AUTO:courses' in page:
+        page = re.sub(r'  <!-- AUTO:courses.*?<!-- /AUTO:courses -->\n', lambda m: block, page, flags=re.S)
+    else:
+        s = page.index('  <h2>Current Courses</h2>'); e = page.index('</main>')
+        page = page[:s] + block + '\n' + page[e:]
+    open(path, 'w', encoding='utf-8').write(page)
+    print('Teaching page updated.')
+
+# ── Footer date on all pages ───────────────────────────────────────────────────
+def update_footer_dates():
+    import datetime, glob
+    stamp = datetime.date.today().strftime('%B %Y')
+    n = 0
+    for p in glob.glob(os.path.join(HERE, '*.html')):
+        s = open(p, encoding='utf-8').read()
+        s2 = re.sub(r'Last update: [A-Z][a-z]+ \d{4}', f'Last update: {stamp}', s)
+        if s2 != s: open(p, 'w', encoding='utf-8').write(s2); n += 1
+    print(f'Footer date set to {stamp} ({n} files changed).')
+
 # ── Main ───────────────────────────────────────────────────────────────────────
 pub_entries = parse_bib(BIB_PUB)
 wp_entries  = parse_bib(BIB_WP)
@@ -514,4 +663,7 @@ for e in pub_entries:
 
 with open(OUT_PUB, 'w', encoding='utf-8') as f: f.write(build_pub(pub_entries))
 with open(OUT_WP,  'w', encoding='utf-8') as f: f.write(build_wp(wp_entries))
+update_project_pages(pub_entries, wp_entries)
+update_teaching()
+update_footer_dates()
 print('\nDone. Files written.')

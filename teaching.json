@@ -1,0 +1,219 @@
+{
+  "_help": "Edit courses here, then run build.py. HTML in descriptions is allowed (e.g. <em>). Syllabus files live in assets/pdf/.",
+  "sections": [
+    {
+      "heading": "Current Courses",
+      "groups": [
+        {
+          "label": "Winter Term 2026/27",
+          "courses": [
+            {
+              "title": "Thesis Colloquium",
+              "meta": "Colloquium · every term",
+              "lang": "EN",
+              "description": "A colloquium supporting students in the final phase of their thesis. Participants draft a short abstract of their project and present it three times over the semester (literature and theory, research design, findings), receiving continuous feedback from peers and from me. Guest talks add insight into current research debates and methods.",
+              "syllabi": [
+                {
+                  "label": "Syllabus",
+                  "file": "Syllabus_Bischof_Kolloquium.pdf"
+                }
+              ]
+            },
+            {
+              "title": "Einführung in die Politikwissenschaft",
+              "meta": "BA lecture",
+              "lang": "DE",
+              "description": "An introduction to the central questions, concepts, and fields of modern political science for students at the start of their studies. The lecture clarifies what sets political science apart from commentary, journalism, and everyday opinion; introduces key concepts (politics, polity, policy, power, legitimacy, institutions, norms) and the subfields of the discipline; and practices how to find, read, write, cite, and evaluate research. It closes by linking these foundations to current political challenges, the research done at the Institute in Münster, and career paths for political scientists.",
+              "syllabi": [
+                {
+                  "label": "Syllabus",
+                  "file": "Syllabus_Bischof_Einfuehrung_Politikwissenschaft.pdf"
+                }
+              ]
+            },
+            {
+              "title": "Applied Quantitative Methods: Democracy and Sustainability",
+              "meta": "MA seminar",
+              "lang": "DE",
+              "description": "How can we use quantitative data to study today’s political and societal challenges? Set up as a joint research lab on democracy and sustainability, the seminar starts with the logic of good comparisons; from week three, groups develop their own small research projects using secondary data and replication, original surveys, survey experiments, digital or text data, or a small field intervention. It is not a programming course, but students work with R in a guided way: loading data, comparing groups, visualizing results, and reflecting on the limits of their evidence.",
+              "syllabi": [
+                {
+                  "label": "Syllabus",
+                  "file": "Syllabus_Bischof_AppliedQuant.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Summer Term 2026",
+          "courses": [
+            {
+              "title": "Thesis Colloquium",
+              "meta": "Colloquium · every term",
+              "lang": "EN",
+              "description": "A colloquium supporting students in the final phase of their thesis. Participants draft a short abstract of their project and present it three times over the semester (literature and theory, research design, findings), receiving continuous feedback from peers and from me. Guest talks add insight into current research debates and methods.",
+              "syllabi": [
+                {
+                  "label": "Syllabus",
+                  "file": "Syllabus_Bischof_Kolloquium.pdf"
+                }
+              ]
+            },
+            {
+              "title": "Was wir von wissenschaftlichen Studien lernen können (Kausale Inferenz I)",
+              "meta": "BA research seminar",
+              "lang": "DE",
+              "description": "Does the local presence of refugees fuel far-right parties? Does deplatforming work? Using prominent examples from public debate, this seminar asks what we can and cannot learn from scientific studies. Starting from description and measurement, we move to causal inference, covering field experiments, survey experiments, quasi-experiments, and debates on generalizability and open science. Students learn to read empirical work quickly, evaluate it critically, and judge the reach and limits of social science research.",
+              "syllabi": [
+                {
+                  "label": "Syllabus",
+                  "file": "Syllabus_Bischof_LernenWissenschaft.pdf"
+                }
+              ]
+            },
+            {
+              "title": "Einführung in die Vergleichende Politikwissenschaft",
+              "meta": "BA lecture and tutorials",
+              "lang": "DE",
+              "description": "An introduction to comparative politics: how can we compare political systems meaningfully, and what do we learn from doing so? The first part covers state and nation building, democratization and revolution, regime types, and how constitutions, parliaments, and courts structure political power. The second part turns to political conflict and social change: value change, social movements, parties, left–right conflict, electoral systems, and the radical right. Weekly tutorials deepen selected readings.",
+              "syllabi": [
+                {
+                  "label": "Syllabus",
+                  "file": "Syllabus_Bischof_Vorlesung_Vergleichende.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Former Courses",
+      "groups": [
+        {
+          "label": "",
+          "courses": [
+            {
+              "title": "The Key Challenges Our Societies Are Facing and How to Address Them: From Climate Change to Inequality",
+              "meta": "MA seminar · Münster · Summer 2025",
+              "lang": "EN",
+              "description": "Each week, this seminar takes on one pressing societal challenge (climate change, economic inequality, representation deficits, populism, far-right extremism, terrorism, pandemics, or global crises such as hunger and war) through a key academic text. Students examine the roots of each problem and the policy responses proposed to address it, connecting political, economic, and social perspectives. Assignments include rotating session roles and a policy memo.",
+              "syllabi": [
+                {
+                  "label": "Syllabus",
+                  "file": "Syllabus_Bischof_KeyChallenges.pdf"
+                }
+              ]
+            },
+            {
+              "title": "Political Culture and Norms: How Societies Change",
+              "meta": "MA seminar · Münster (Summer 2024) and Aarhus (Spring 2022)",
+              "lang": "EN",
+              "description": "What is political culture, how can we measure it, and how does it change across space and time? Drawing on classic work in political science alongside economics, social psychology, and fiction (Philip Roth’s <em>The Plot Against America</em>), the seminar examines how shifts in political systems, such as the rise of extreme parties, change perceived norms in society. Historical cases of norm erosion, like the fascist regimes of the 1930s, are linked to current developments, with a strong focus on methods of causal inference.",
+              "syllabi": [
+                {
+                  "label": "Syllabus · Münster",
+                  "file": "Syllabus_Bischof_SocialNorms.pdf"
+                },
+                {
+                  "label": "Syllabus · Aarhus",
+                  "file": "Bischof_norms_syllabus.pdf"
+                }
+              ]
+            },
+            {
+              "title": "Invasive Parties: Where New Parties Come From and How They Change Party Systems",
+              "meta": "MA seminar · Zurich · Spring 2018",
+              "lang": "EN",
+              "description": "Since the 1980s, new parties (Greens, the radical right, and more recently populists) have challenged established parties and the workings of delegation and accountability. This seminar asks how these “invasive” parties changed party systems, established parties, and public opinion, and how to separate the causes of their emergence from their consequences. Students write a critical report on a published paper and attempt a replication that extends existing research.",
+              "syllabi": [
+                {
+                  "label": "Syllabus",
+                  "file": "Bischof_InvasiveParties_syllabus.pdf"
+                }
+              ]
+            },
+            {
+              "title": "MACIS Thesis Colloquium",
+              "meta": "MA thesis colloquium · ETH and University of Zurich · 2017–2018",
+              "lang": "EN",
+              "description": "A colloquium guiding MA students from thesis proposal to finished thesis. Sessions cover theory, research design, and data and methods, followed by a thesis workshop where students present their results. Students work in peer partnerships, discussing each other’s projects and building skills in organizing research and academic writing.",
+              "syllabi": [
+                {
+                  "label": "Syllabus",
+                  "file": "Bischof_MACIS_syllabus.pdf"
+                }
+              ]
+            },
+            {
+              "title": "Parteien & Parteiensysteme",
+              "meta": "BA seminar · Zurich · Fall 2016",
+              "lang": "DE",
+              "description": "Political parties are central actors in democracies and many hybrid regimes: they shape political opinion, reduce transaction costs between voters, parliaments, and governments, and facilitate collective action. This course examines their role theoretically and empirically, from core concepts such as party systems and party competition, through the historical role of parties in democracies, to left–right ideologies and the changing space in which parties compete.",
+              "syllabi": [
+                {
+                  "label": "Syllabus",
+                  "file": "Bischof_ParteienParteiensysteme_syllabus.pdf"
+                }
+              ]
+            },
+            {
+              "title": "Vertiefung Vergleichende Politikwissenschaft",
+              "meta": "BA lecture and tutorials · Zurich · 2016–2017 · with Daniele Caramani",
+              "lang": "DE",
+              "description": "A two-semester lecture deepening core themes of comparative politics. The first term introduces four theoretical perspectives (macro-historical sociology, institutionalism, political culture research, and rational choice) and applies them to parliaments, federalism, direct democracy, parties, and electoral systems from the mid-19th century to today, including democratization beyond the West. In the second term, students apply these theories in their own comparative country studies.",
+              "syllabi": [
+                {
+                  "label": "Syllabus",
+                  "file": "CaramaniBischof_Vertiefung_syllabus.pdf"
+                }
+              ]
+            },
+            {
+              "title": "Left-Right in Global Perspective",
+              "meta": "MA seminar · Zurich · Fall 2015 · with Daniele Caramani",
+              "lang": "EN",
+              "description": "An advanced seminar on the left–right dimension at the global level. It links left and right to equality, redistribution, values, and world views; introduces ways to measure left–right using surveys, experiments, party manifestos, media texts, parliamentary debates, and expert surveys; and reviews empirical studies at the individual, national, and global levels. The goal is to assess what these central “categories of politics” mean in today’s globalized world.",
+              "syllabi": [
+                {
+                  "label": "Syllabus",
+                  "file": "CarmaniBischof_LeftRight_syllabus.pdf"
+                }
+              ]
+            },
+            {
+              "title": "Political Institutions",
+              "meta": "BA lecture and tutorials · Aarhus",
+              "lang": "",
+              "description": "",
+              "syllabi": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Designed but Not Taught",
+      "groups": [
+        {
+          "label": "",
+          "courses": [
+            {
+              "title": "The Means and Ends of Party Manifestos & Party Positions",
+              "meta": "MA seminar",
+              "lang": "EN",
+              "description": "Political scientists locate parties’ ideological positions using roll-call votes, expert and public surveys, and political texts, above all party manifestos coded by hand or with software such as Wordfish and Wordscores. This course discusses the strengths and weaknesses of each source, then focuses on manifesto-based positions and new directions in text analysis. Three hands-on sessions teach students to analyze political texts with software.",
+              "syllabi": [
+                {
+                  "label": "Syllabus",
+                  "file": "Bischof_PP_syllabus.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
