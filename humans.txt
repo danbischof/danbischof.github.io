@@ -8,6 +8,6 @@ Location: Münster, Germany
 Built with Claude (claude.ai)
 
 /* SITE */
-Last update: 2026-08-05
+Last update: 2026-09-24
 Language: English
 Doctype: HTML5
