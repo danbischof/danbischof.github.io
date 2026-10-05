@@ -234,8 +234,22 @@ a:hover { text-decoration: underline; color: var(--accent-h); }
   font-style: italic;
 }
 .job-page p { text-align: left; }
-.job-page dt { font-weight: 600; margin-top: 1rem; }
-.job-page dd { margin: 0.2rem 0 0; }
+.job-page dl { margin-top: 0.4rem; }
+.job-page dt {
+  font-weight: 600;
+  color: var(--accent);
+  margin-top: 1.3rem;
+  padding-left: 0.8rem;
+  border-left: 3px solid var(--accent);
+  line-height: 1.45;
+}
+.job-page dd {
+  margin: 0.4rem 0 0;
+  padding: 0 0 1.3rem 0.8rem;
+  border-bottom: 1px solid var(--border);
+  line-height: 1.65;
+}
+.job-page dd:last-child { border-bottom: none; }
 
 /* ── Publications ── */
 .pub-list {
