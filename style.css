@@ -211,6 +211,32 @@ a:hover { text-decoration: underline; color: var(--accent-h); }
 .social-links a:hover { color: var(--accent); text-decoration: none; }
 .social-links svg { display: block; }
 
+/* ── Job offer button on the homepage + postdoc.html (remove after the deadline) ── */
+.job-alert-btn {
+  display: block;
+  width: fit-content;
+  margin: 1.4rem auto 1.6rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 2px;
+  padding: 0.4rem 1rem;
+  transition: background 0.15s, color 0.15s;
+}
+.job-alert-btn:hover { background: var(--accent); color: #fff; text-decoration: none; }
+.job-page blockquote {
+  margin: 1.2rem 0;
+  padding: 0.7rem 1rem;
+  background: var(--bg-raised);
+  border-left: 3px solid var(--accent);
+  font-style: italic;
+}
+.job-page p { text-align: left; }
+.job-page dt { font-weight: 600; margin-top: 1rem; }
+.job-page dd { margin: 0.2rem 0 0; }
+
 /* ── Publications ── */
 .pub-list {
   list-style: none;
