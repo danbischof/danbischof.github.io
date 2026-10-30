@@ -28,6 +28,7 @@ WP_UNDER_REVIEW = {
 
 # Title overrides (key → new title string)
 WP_RENAME = {
+    'bischof2024mapping': "Democratic Support Is Conditional on Social Norms: How Citizens' Perceptions of a Democratic Consensus Matter",
     'bischof2026demcit': 'What Citizens Mean by Democracy: Partisan Differences in Open-Ended Survey Responses',
 }
 
