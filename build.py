@@ -22,6 +22,8 @@ WP_UNDER_REVIEW = {
     'bischof2026bans',
     'haas2025',
     'Frederiksen2025',
+    'bischof2026demcit',
+    'bischof2024mapping',
 }
 
 # Title overrides (key → new title string)
